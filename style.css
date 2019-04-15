@@ -1,0 +1,41 @@
+/*---------------navbar-------------*/
+
+.navbar {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-media {
+    padding-top: 15px;
+}
+
+.social-media i {
+    color: #fafafa;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+}
+
+.social-media i:hover {
+    color: #f60a20;
+}
+
+/*---------------footer-------------*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    margin: 0;
+    text-align: center;
+}
+
+.title {
+    text-size: 30px;
+}
+
+.info {
+    text-size: 20px;
+}

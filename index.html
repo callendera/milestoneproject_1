@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -17,92 +19,165 @@
 </head>
 
 <body>
-<!--------NavBar-------------------------------------->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+    <!--------NavBar-------------------------------------->
+    <nav class="navbar navbar-expand-sm fixed-top">
         <a href="index.html" class="navbar-brand">The Monkees</a>
-        <ul class="navbar-nav mr-auto">
-                        <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
-            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="watch.html">Watch</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="listen.html">Listen</a></li>
-            <li class="nav-item mr-6"><a class="nav-link" href="whatsnew.html">What's New?</a></li>
-        </ul>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="watch.html">Watch</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="listen.html">Listen</a></li>
+                <li class="nav-item mr-6"><a class="nav-link" href="whatsnew.html">What's New?</a></li>
+            </ul>
+        </div>
         <ul class="list-inline social-media">
             <li class="list-inline-item"><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-f"></i>
-            <span class="sr-only">Facebook</span></a></li>
+                    <span class="sr-only">Facebook</span></a></li>
             <li class="list-inline-item"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter"></i>
-            <span class="sr-only">Twitter</span></a></li>
+                    <span class="sr-only">Twitter</span></a></li>
             <li class="list-inline-item"><a href="https://www.youtube.com/user/themonkees" target="_blank"><i class="fab fa-youtube"></i>
-            <span class="sr-only">YouTube</span></a></li>
+                    <span class="sr-only">YouTube</span></a></li>
         </ul>
     </nav>
-<!---------navbar--------------------------------------->
+    <!---------navbar--------------------------------------->
 
     <article class="container">
     
     
         <!--------CallOut------------------------------>
-        <div class="row my-5">
-            <section class="callout jumbotron text-center container-fluid">
-                <div class="col-12">
-                    <h1>The Monkees</h1>
-                    <!-----FIGURE OUT HOW TO HIDE THIS!!!---------->
-                </div>
-                <div class="col-12">
-                    <p class="lead">Over 50 years experience performing live around the world.</p>
-                    <p class="lead"><strong>Weddings? Holiday Parties? </p>
-                        <a href="/" class="lead"><button type="button" class="btn btn-outline-danger btn-lg">Book Us Today!</button></strong></a>
-                </div>
-            </section>
-                <!----------Button from: https://getbootstrap.com/docs/4.3/components/buttons/------------->
-        </div>
-        <!--------callout-------------------------------->
-        <hr>
+        <div class="container callout-container">
+            <div class="row my-5">
+                <section class="callout jumbotron text-center container-fluid">
+                    <div class="col-12">
+                        <p class="lead">Over 50 years experience performing live around the world.</p>
+                        <p class="lead"><strong>Weddings? Holiday Parties? </p>
+                                    <!------- Button ---------->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Now</button>
         
-        <!--------Quotes----------------------------------->
-        <section class="quotes text-center my-5">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>"They belong in the Rock Hall of Fame. Period."</p>
-                        <p>-David Smith</p>
-                    </blockquote>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>"Their music lives on in all of us FOREVER!"</p>
-                        <p>-Belinduh Dean</p>
-                    </blockquote>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>"Pure nastalgia"</p>
-                        <p>-Gary MacMillon</p>
-                    </blockquote>
-                </div>
+                    </div>
+                </section>
             </div>
-        </section>
-        <!---------quotes-------------------------------------->
-        <hr>
-        <!---------ContactInfo------------------------------>
-        <footer class="text-center my-5">
-            <div class="row">
-                <div class="col-12 title">
-                    <h2>Contact Us:</h2>
+        </div>
+                <!--------callout-------------------------------->
+                <hr>
+        
+                <!--------Quotes----------------------------------->
+                <div class="container quotes-container">
+                    <section class="quotes text-center my-5">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <blockquote class="blockquote">
+                                    <p>"They belong in the Rock Hall of Fame. Period."</p>
+                                    <p>-David Smith</p>
+                                </blockquote>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <blockquote class="blockquote">
+                                    <p>"Their music lives on in all of us FOREVER!"</p>
+                                    <p>-Belinduh Dean</p>
+                                </blockquote>
+                            </div>
+                            <div class="col-12 d-md-none d-lg-block col-lg-4">
+                                <blockquote class="blockquote">
+                                    <p>"Pure nastalgia"</p>
+                                    <p>-Gary MacMillon</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 info">
-                    <p>themonkees1960@yahoo.com</p>
-                    <p>555-434-6979</p>
-                    <p>123 Alphabet RD. Rancho Cucamonga, CA 12345</p>
+                <!---------quotes-------------------------------------->
+                <hr>
+                <!---------ContactInfo------------------------------>
+        <div class="container contact-container">
+            <footer class="text-center my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contact Us:</h1>
+                    </div>
                 </div>
-            </div>
-        </footer>
-        <!---------contactinfo------------------------------>
-    
+                <div class="row">
+                    <div class="col-12">
+                        <p>themonkees1960@yahoo.com</p>
+                        <p>555-434-6979</p>
+                        <p>123 Alphabet RD. Rancho Cucamonga, CA 12345</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+                <!---------contactinfo------------------------------>
+        
     </article>
+    <!------- Modal ---------->
+    
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault01">Your Name</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="First and Last" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Company Name</label></label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="*Optional*" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefaultUsername">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+
+                                </div>
+                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="@email.com" aria-describedby="inputGroupPrepend2" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">Where?</label>
+                            <input type="text" class="form-control" id="validationDefault03" placeholder="Address" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault04">Date</label>
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="08/10/2019" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault05">Time</label>
+                            <input type="text" class="form-control" id="validationDefault05" placeholder="12:00am EST" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Event Details</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please provide a short description of your event">
+                    </div>
+                    <button class="btn btn-primary" type="submit" data-toggle="modal">Book</button>
+
+                </form>
+
+            </div>
+        </div>
+        <!----------Modal & Button from: https://getbootstrap.com/docs/4.3/components/modal/------------->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

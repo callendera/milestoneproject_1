@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees | Book Us Today!</title>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -15,14 +18,13 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <div class="background-container container-fluid opaque-overlay">
+    <div class="container-fluid background-container">
         <!--------NavBar-------------------------------------->
-        <nav class="navbar navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-light navbar-expand-sm fixed-top">
             <a href="index.html" class="navbar-brand">The Monkees</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,24 +35,14 @@
                     <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
                     <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="watch.html">Watch</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="listen.html">Listen</a></li>
                     <li class="nav-item mr-6"><a class="nav-link" href="whatsnew.html">What's New?</a></li>
                 </ul>
             </div>
-            <ul class="list-inline social-media">
-                <li class="list-inline-item"><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-f"></i>
-                    <span class="sr-only">Facebook</span></a></li>
-                <li class="list-inline-item"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter"></i>
-                    <span class="sr-only">Twitter</span></a></li>
-                <li class="list-inline-item"><a href="https://www.youtube.com/user/themonkees" target="_blank"><i class="fab fa-youtube"></i>
-                    <span class="sr-only">YouTube</span></a></li>
-            </ul>
         </nav>
         <!---------navbar--------------------------------------->
 
         <!--------CallOut------------------------------>
-
+        
         <div class="container-fluid callout-container">
             <div class="row my-5">
                 <section class="callout jumbotron text-center">
@@ -68,34 +60,24 @@
         <hr>
 
         <!--------Quotes----------------------------------->
-        <div class="container quotes-container">
-            <section class="quotes text-center my-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <blockquote class="blockquote">
-                            <p>"They belong in the Rock Hall of Fame. Period."</p>
-                            <p>-David Smith</p>
-                        </blockquote>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <blockquote class="blockquote">
-                            <p>"Their music lives on in all of us FOREVER!"</p>
-                            <p>-Belinduh Dean</p>
-                        </blockquote>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <blockquote class="blockquote">
-                            <p>"Pure nastalgia"</p>
-                            <p>-Gary MacMillon</p>
-                        </blockquote>
-                    </div>
-                </div>
-            </section>
+        <div class="container audio-container">
+            <audio controls>
+                <source src="Clarksville.ogg" type="audio/ogg">
+  <source src="Clarksville.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+            
+            <source src="/assets/audio/DaydreamBeliever.mp3" type="mpeg">
+            
+            <source src="/assets/audio/ImaBeliever.mp3" type="mpeg">
+            
+            <source src="/assets/audio/SteppingStone.mp3" type="mpeg">
+
         </div>
         <!---------quotes-------------------------------------->
         <hr>
         <!---------ContactInfo------------------------------>
-        <div class="container contact-container">
+        <div class="container-fluid contact-container">
             <footer class="text-center my-5">
                 <div class="row">
                     <div class="col-12">
@@ -107,6 +89,18 @@
                         <p>themonkees1960@yahoo.com</p>
                         <p>555-434-6979</p>
                         <p>123 Alphabet RD. Rancho Cucamonga, CA 12345</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="list-inline social-media">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-f"></i>
+                    <span class="sr-only">Facebook</span></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter"></i>
+                    <span class="sr-only">Twitter</span></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/user/themonkees" target="_blank"><i class="fab fa-youtube"></i>
+                    <span class="sr-only">YouTube</span></a></li>
+                        </ul>
                     </div>
                 </div>
             </footer>
@@ -174,13 +168,12 @@
 
 
 
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             </div>
         </div>
-    </div>        
+    </div>
 </body>
 
 </html>

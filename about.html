@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -18,66 +21,50 @@
 
 <body>
     <div class="background-container container-fluid">
-<!--------NavBar-------------------------------------->
-    <nav class="navbar navbar-expand-sm fixed-top">
-        <a href="index.html" class="navbar-brand">The Monkees</a>
+        <!--------NavBar-------------------------------------->
+        <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+            <a href="index.html" class="navbar-brand">The Monkees</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mr-auto">
-                <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
-                <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="watch.html">Watch</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="listen.html">Listen</a></li>
-                <li class="nav-item mr-6"><a class="nav-link" href="whatsnew.html">What's New?</a></li>
-            </ul>
-        </div>
-        <ul class="list-inline social-media">
-            <li class="list-inline-item"><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-f"></i>
-                    <span class="sr-only">Facebook</span></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter"></i>
-                    <span class="sr-only">Twitter</span></a></li>
-            <li class="list-inline-item"><a href="https://www.youtube.com/user/themonkees" target="_blank"><i class="fab fa-youtube"></i>
-                    <span class="sr-only">YouTube</span></a></li>
-        </ul>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item mr-6"><a class="nav-link" href="whatsnew.html">What's New?</a></li>
+                </ul>
+            </div>
+        </nav>
 
-<!---------navbar--------------------------------------->
+        <!---------navbar--------------------------------------->
 
-    
-    
+
+
         <!--------CallOut------------------------------>
-        <div class="row my-5">
-            <section class="callout container-fluid my-5">
-                <div class="col-12">
-                    <h1>Bio</h1>
-                </div>
-                <div class="col-12">
-                    <p class="lead">The Monkees were a four-person band who appeared 
-                    in an American television series of the same name, which ran on NBC from 1966 to 1968. 
-                    The Monkees were formed in 1965 in Los Angeles, California and disbanded in 1970. 
-                    Several reunions of the original lineup have taken place. 
-                    The first reunion lasted from 1986-1989, and a second regrouping took place between 1996-1997. 
-                    The Monkees last worked together for a brief period in 2001.
-                    The four young men who became The Monkees 
-                    were British-born David ('Davy') Jones (percussion/vocals), George Michael ('Micky') 
-                    Dolenz (drums/vocals), Michael Nesmith (guitar/vocals), and Peter Tork (bass/keyboards/vocals). 
-                    They were cast after ads were placed in trade publications calling for actors to play 
-                    '4 insane boys' on a new television series.</p>
-                    <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">Read More</a></p>
 
-                    
+        <div class="container-fluid bio-container">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row my-5 ">
+                <section class="callout container-fluid my-5">
+                    <div class="col-12">
+                        <h1>Bio</h1>
+                    </div>
+                    <div class="col-12">
+                        <p class="lead">The Monkees were a four-person band who appeared in an American television series of the same name, which ran on NBC from 1966 to 1968. The Monkees were formed in 1965 in Los Angeles, California and disbanded in 1970. Several reunions
+                            of the original lineup have taken place. The first reunion lasted from 1986-1989, and a second regrouping took place between 1996-1997. The Monkees last worked together for a brief period in 2001. The four young men who became
+                            The Monkees were British-born David ('Davy') Jones (percussion/vocals), George Michael ('Micky') Dolenz (drums/vocals), Michael Nesmith (guitar/vocals), and Peter Tork (bass/keyboards/vocals). They were cast after ads were
+                            placed in trade publications calling for actors to play '4 insane boys' on a new television series.</p>
+                        <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">Read More</a></p>
+                    </div>
                     <!-------TEXT FROM: https://www.8notes.com/biographies/monkees.asp --------->
-                    
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
         <!--------callout-------------------------------->
         <hr>
-    
+
         <!--------Meet The Guys----------------------------------->
         <section class="guys">
             <div class="row d-sm-inline d-none d-sm-block">
@@ -88,10 +75,9 @@
                     <div class="media block">
                         <img src="assets/images/dj.jpg" class="rounded-circle mr-3">
                         <div class="media-body">
-                                <h3>Davy Jones</h3>
-                                <p class="lead">Born December 30th, 1945. A passionate percussionist, vocalist, singer, and songwriter 
-                                Davy becomes teenage heart throb through his amazing acting and musical talents. </p>
-                                <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">Read More</a></p>
+                            <h3>Davy Jones</h3>
+                            <p class="lead">Born December 30th, 1945. A passionate percussionist, vocalist, singer, and songwriter Davy becomes teenage heart throb through his amazing acting and musical talents. </p>
+                            <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -99,23 +85,20 @@
                     <div class="media">
                         <img src="assets/images/md.jpg" class="rounded-circle mr-3">
                         <div class="media-body">
-                                <h3>Micky Dolenz</h3>
-                                <p class="lead">With his show-business career in 1956 begining when he starred in a children's 
-                                TV show called Circus Boy, Dolenz born March 8th, 1945, was on 
-                                the fast track to becoming music legend.</p>
-                                <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">Read More</a></p>
+                            <h3>Micky Dolenz</h3>
+                            <p class="lead">With his show-business career in 1956 begining when he starred in a children's TV show called Circus Boy, Dolenz born March 8th, 1945, was on the fast track to becoming music legend.</p>
+                            <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">Read More</a></p>
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="col-12 my-5">
                     <div class="media">
                         <img src="assets/images/mn.jpg" class="rounded-circle mr-3">
                         <div class="media-body">
-                                <h3>Mike Nesmith</h3>
-                                <p class="lead">Musician, songwriter, actor, producer, novelist, businessman, and philanthropist, 
-                                Mike is most well known for his ability and talent behind the guitar. Also born December 30th in 1942.  </p>
-                                <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">Read More</a></p>
+                            <h3>Mike Nesmith</h3>
+                            <p class="lead">Musician, songwriter, actor, producer, novelist, businessman, and philanthropist, Mike is most well known for his ability and talent behind the guitar. Also born December 30th in 1942. </p>
+                            <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -123,11 +106,9 @@
                     <div class="media">
                         <img src="assets/images/pt.jpg" class="rounded-circle mr-3">
                         <div class="media-body">
-                                <h3>Peter Tork</h3>
-                                <p class="lead">Tork is a brilliant musician, composer and actor, 
-                                best known as the keyboardist and bass guitarist of the Monkees.
-                                As well as Nesmith, he was also born in 1942 on February 13th. </p>
-                                <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">Read More</a></p>
+                            <h3>Peter Tork</h3>
+                            <p class="lead">Tork is a brilliant musician, composer and actor, best known as the keyboardist and bass guitarist of the Monkees. As well as Nesmith, he was also born in 1942 on February 13th. </p>
+                            <p><a class="btn btn-sm btn-outline-danger" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -136,22 +117,36 @@
         <!---------meet the guys-------------------------------------->
         <hr>
         <!---------ContactInfo------------------------------>
-        <footer class="text-center my-5">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Contact Us:</h1>
+        <div class="contact-container container-fluid">
+            <footer class="text-center my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contact Us:</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p>themonkees1960@yahoo.com</p>
-                    <p>555-434-6979</p>
-                    <p>123 Alphabet RD. Rancho Cucamonga, CA 12345</p>
+                <div class="row">
+                    <div class="col-12">
+                        <p>themonkees1960@yahoo.com</p>
+                        <p>555-434-6979</p>
+                        <p>123 Alphabet RD. Rancho Cucamonga, CA 12345</p>
+                    </div>
                 </div>
-            </div>
-        </footer>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="list-inline social-media">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-f"></i>
+                    <span class="sr-only">Facebook</span></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/themonkees?lang=en" target="_blank"><i class="fab fa-twitter"></i>
+                    <span class="sr-only">Twitter</span></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/user/themonkees" target="_blank"><i class="fab fa-youtube"></i>
+                    <span class="sr-only">YouTube</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
         <!---------contactinfo------------------------------>
-    
+
     </div>
 </body>
 

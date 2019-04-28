@@ -1,8 +1,9 @@
 /*---------------font-------------*/
 
 body {
+    
     font-family: 'Galindo', cursive;
-    background: url("../assets/images/retro.jpg") repeat top left fixed rgba(0, 0, 0, 0.5);
+    background: url("../assets/images/stipes1.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +18,7 @@ body {
 .navbar {
     margin: 0;
     padding: 0;
-    background: url("../assets/images/retro.jpg") repeat top left fixed rgba(0, 0, 0, 0.5);
+    background: url("../assets/images/stripes1.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,10 +81,10 @@ body {
 /*---------------callout container-------------*/
 
 .callout-container {
-    height: 100vh;
+    height: 98vh;
     width: 100%;
     
-    background: url("../assets/images/monkees.jpg") no-repeat top left fixed;
+    background: url("../assets/images/monks.jpg") no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -113,7 +114,7 @@ body {
 .jumbotron {
     margin-bottom: 30px;
     color: #fafafa;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*---------------footer-------------*/
@@ -121,6 +122,12 @@ body {
 footer {
     margin: 0;
     text-align: center;
+    
+    background: url("../assets/images/stipes1.jpg") repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .title {
@@ -135,16 +142,54 @@ footer {
 
 .background-container {
     margin: 0;
-    background: url("../assets/images/retro.jpg") repeat top left fixed rgba(0, 0, 0, 0.4);
+    
+    background: url("../assets/images/stripes1.jpg") repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    z-index: 1;
+    
+}
+.callout{
+    z-index: 2;
+}
+.bio-container {
+    height: 100vh;
+    background: url("../assets/images/tv1.jpg") repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    color: #fafafa;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.contact-container {
+    margin: 0;
+    background: url("../assets/images/stripes1.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
-
 
 
 

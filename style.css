@@ -64,7 +64,6 @@ body {
     overflow: hidden;
     
 
-    display: center;
     align-items: center;
     justify-content: center;
     
@@ -243,11 +242,11 @@ footer {
 }
 
 .title {
-    text-size: 30px;
+    font-size: 30px;
 }
 
 .info {
-    text-size: 20px;
+    font-size: 20px;
 }
 
 /*---------------general-------------*/

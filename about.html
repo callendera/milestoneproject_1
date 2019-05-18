@@ -23,7 +23,7 @@
 
 <body>
     <div class="container">
-        <!--------NavBar-------------------------------------->
+        <!--NavBar-->
         <nav class="navbar navbar-light navbar-expand-sm fixed-top">
             <a href="index.html" class="navbar-brand">The Monkees</a>
 
@@ -32,10 +32,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <!---CHANGE ACTIVE CLASS FOR EACH NAV-ITEM IN THEIR DESIGNATED FILE----->
+                    
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-6"><a class="nav-link" href="ontour.html">Upcoming Concerts</a></li>
+                    <li class="nav-item mr-6"><a class="nav-link" href="ontour.html">Concerts</a></li>
                 </ul>
                 <div class="d-none d-lg-block">
                     <p class="navbar-text my-auto mr-2"><i>Weddings? Holiday Parties?</i></p>
@@ -45,16 +45,16 @@
         </nav>
     </div>
 
-    <!---------navbar--------------------------------------->
+    <!--navbar-->
 
 
 
-    <!--------CallOut------------------------------>
+    <!--CallOut-->
     <div class="background-container container-fluid">
         <div class="row bio-container">
             <div class="opaque-overlay">&nbsp;</div>
             <div class="row my-5">
-                <section class="callout container">
+                <div class="callout container">
                     <div class="col-12">
                         <div class="heading">Bio</div>
                     </div>
@@ -65,13 +65,13 @@
                             placed in trade publications calling for actors to play '4 insane boys' on a new television series.</div>
                         <p><a class="btn btn-sm" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">Read More</a></p>
                     </div>
-                    <!-------TEXT FROM: https://www.8notes.com/biographies/monkees.asp --------->
-                </section>
+                    <!--TEXT FROM: https://www.8notes.com/biographies/monkees.asp-->
+                </div>
             </div>
         </div>
-        <!--------callout-------------------------------->
+        <!--callout-->
 
-        <!--------Meet The Guys----------------------------------->
+        <!--Meet The Guys-->
         <div class="row">
             <section class="guys">
                 <div class="row d-sm-inline d-none d-sm-block">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-12 my-5">
                         <div class="media block">
-                            <img src="assets/images/dj.jpg" class="rounded-circle mr-3">
+                            <img src="assets/images/dj.jpg" class="rounded-circle mr-3" alt="Image Not Supported In Browser">
                             <div class="media-body">
                                 <h3>Davy Jones</h3>
                                 <div class="col-8">
@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-12 my-5">
                         <div class="media">
-                            <img src="assets/images/md.jpg" class="rounded-circle mr-3">
+                            <img src="assets/images/md.jpg" class="rounded-circle mr-3" alt="Image Not Supported In Browser">
                             <div class="media-body">
                                 <h3>Micky Dolenz</h3>
                                 <div class="col-8">
@@ -105,7 +105,7 @@
 
                     <div class="col-12 my-5">
                         <div class="media">
-                            <img src="assets/images/mn.jpg" class="rounded-circle mr-3">
+                            <img src="assets/images/mn.jpg" class="rounded-circle mr-3" alt="Image Not Supported In Browser">
                             <div class="media-body">
                                 <h3>Mike Nesmith</h3>
                                 <div class="col-8">
@@ -117,7 +117,7 @@
                     </div>
                     <div class="col-12 my-5">
                         <div class="media">
-                            <img src="assets/images/pt.jpg" class="rounded-circle mr-3">
+                            <img src="assets/images/pt.jpg" class="rounded-circle mr-3" alt="Image Not Supported In Browser">
                             <div class="media-body">
                                 <h3>Peter Tork</h3>
                                 <div class="col-8">
@@ -130,9 +130,10 @@
                 </div>
             </section>
         </div>
-        <!---------meet the guys-------------------------------------->
-        <!--------PhotoGallery------------------------------>
-
+        <!--meet the guys-->
+        
+        
+        <!--PhotoGallery-->
 
         <div class="photo-container">
             <div class="row">
@@ -217,14 +218,12 @@
             </div>
         </div>
 
-
-
-        <!--------photogallery------------------------------>
+        <!--photogallery-->
 
         <hr class="block-divider">
 
 
-        <!---------ContactInfo------------------------------>
+        <!--ContactInfo-->
         <div class="container text-center">
             <div class="row contact-container">
                 <div class="col">
@@ -258,9 +257,9 @@
                 </div>
             </div>
         </div>
-        <!---------contactinfo------------------------------>
+        <!--contactinfo-->
 
-        <!------- Modal ---------->
+        <!--Modal-->
 
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -279,11 +278,11 @@
                                     <input type="text" class="form-control" id="validationDefault01" placeholder="First and Last" required>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <label for="validationDefault02">Company Name</label></label>
+                                    <label for="validationDefault02">Company Name</label>
                                     <input type="text" class="form-control" id="validationDefault02" placeholder="*Optional*" required>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <label for="validationDefaultUsername">Email</label>
+                                    <label for="validationDefaultUsername" id="inputGroupPrepend2">Email</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
 
@@ -316,7 +315,7 @@
 
                     </div>
                 </div>
-                <!----------Modal & Button from: https://getbootstrap.com/docs/4.3/components/modal/------------->
+                <!--Modal & Button from: https://getbootstrap.com/docs/4.3/components/modal/-->
 
 
 

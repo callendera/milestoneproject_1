@@ -3,7 +3,7 @@
 body {
 
     font-family: 'Galindo', cursive;
-    background: url("assets/images/stipes1.jpg") repeat top left fixed;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,49 +12,59 @@ body {
 }
 
 
+
+
+
+
+
 /*---------------media queries-------------*/
 
 
-@media (min-width:600px) {
+@media (min-width:768px) {
   div.heading {
     font-size: 40px;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
   div.heading {
     font-size: 30px;
   }
 }
 
-@media (min-width:600px) {
+@media (min-width:768px) {
   div.text {
     font-size: 20px;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
   div.text {
     font-size: 15px;
   }
 }
 
 
-@media (min-width:600px) {
+@media (min-width:768px) {
   div.callout-container {
     width: 100%;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
   div.callout-container {
-     background: url("assets/images/monkees.jpg") no-repeat center left fixed;
+     background: url("assets/images/guitar.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 94.5vh;
+    width: auto;
+    
+    overflow: hidden;
+    
 
-    display: flex;
+    display: center;
     align-items: center;
     justify-content: center;
     
@@ -63,15 +73,15 @@ body {
 
 
 
-
-
-
 /*---------------navbar-------------*/
+
 
 .navbar {
     margin: 0;
     padding-left: 20px;
-    background: url("assets/images/stripes1.jpg") repeat top left fixed;
+    padding-bottom: 0;
+    padding-top: 0;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,6 +90,7 @@ body {
 
 .navbar-brand {
     color: #119264;
+    font-size: 25px;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -104,11 +115,15 @@ body {
 }
 
 .social-media {
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .social-media i {
-    color: #d82389;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+   font-size: 30px;
+    color: #20b978;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -134,20 +149,23 @@ body {
 /*---------------callout container-------------*/
 
 .callout-container {
-    height: 98vh;
-    width: 100%;
-
-    background: url("assets/images/monks.jpg") no-repeat top left fixed;
+    height: 100vh;
+    background: url("assets/images/monkees.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+    color: #fafafa;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
+    position: relative;
 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -155,19 +173,37 @@ body {
 
 .btn {
     color: #fafafa;
-    background-color: #d82389;
+    background-color: #20b978;
 }
 
 .btn:hover {
     background-color: #119264;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
 }
 
 .modal-btn {
-    background-color: #d82389;
+    background-color: #20b978;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: #20b978;
+}
+
+.nav-btn:hover {
+    color: #119264;
+    background-color: transparent;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
 }
 
 .jumbotron {
-    margin-bottom: 30px;
+
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -179,6 +215,19 @@ img.rounded {
 }
 
 
+img.rounded-circle {
+    height: 250px;
+    width: 300px;
+}
+
+
+img.pg {
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+
+
 
 /*---------------footer-------------*/
 
@@ -186,7 +235,7 @@ footer {
     margin: 0;
     text-align: center;
 
-    background: url("assets/images/stipes1.jpg") repeat top left fixed;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -202,6 +251,32 @@ footer {
 }
 
 /*---------------general-------------*/
+
+.ad {
+    padding-top: 40px;
+}
+
+.red-divider {
+    width: 200px;
+    height: 3px;
+    border: 0;
+    background-color: rgb(159, 8, 25);
+}
+
+.block-divider {
+    width: 200px;
+    height: 3px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+
+
+.pgh {
+    padding-bottom: 20px;
+  
+}
+
 
 .opaque-overlay {
     position: absolute;
@@ -236,9 +311,16 @@ footer {
     position: relative;
 }
 
+
+
+.jumbo-container {
+    padding-top: 40px;
+}
+
+
 .contact-container {
     margin: 0;
-    background: url("assets/images/stripes1.jpg") repeat top left fixed;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -246,17 +328,31 @@ footer {
 }
 
 .audio-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
     margin: 0;
-    background: url("assets/images/stripes1.jpg") repeat top left fixed;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.video-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+    background: url("assets/images/red.jpg") repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .background-container {
     margin: 0;
-    background: url("assets/images/stripes1.jpg") repeat top left fixed;
+    background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

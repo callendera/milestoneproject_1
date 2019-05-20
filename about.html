@@ -24,17 +24,16 @@
 <body>
     <div class="container">
         <!--NavBar-->
-        <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+                <nav class="navbar navbar-expand-sm fixed-top">
             <a href="index.html" class="navbar-brand">The Monkees</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
+            <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link active" href="about.html">About</a></li>
                     <li class="nav-item mr-6"><a class="nav-link" href="ontour.html">Concerts</a></li>
                 </ul>
                 <div class="d-none d-lg-block">
@@ -43,6 +42,7 @@
                 </div>
             </div>
         </nav>
+
     </div>
 
     <!--navbar-->
@@ -145,18 +145,12 @@
                     <div class="col-12 text-center">
 
                         <img src="assets/images/album.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-
-
+                        
+                        
+                        <img src="assets/images/play.jpg" class="rounded pg" alt="Image Not Supported In Browser">
 
                         <img src="assets/images/album2.jpg" class="rounded pg" alt="Image Not Supported In Browser">
 
-
-
-                        <img src="assets/images/band.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-
-
-
-                        <img src="assets/images/cover.jpg" class="rounded pg" alt="Image Not Supported In Browser">
 
 
 
@@ -185,22 +179,11 @@
 
 
                         <img src="assets/images/pt.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-
-
-
-                        <img src="assets/images/mon1.png" class="rounded pg" alt="Image Not Supported In Browser">
-
-
-
-                        <img src="assets/images/monkees.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-
+                    
 
 
                         <img src="assets/images/monks.jpg" class="rounded pg" alt="Image Not Supported In Browser">
 
-
-
-                        <img src="assets/images/play.jpg" class="rounded pg" alt="Image Not Supported In Browser">
 
 
 
@@ -219,12 +202,12 @@
         </div>
 
         <!--photogallery-->
-
-        <hr class="block-divider">
+        
+        
 
 
         <!--ContactInfo-->
-        <div class="container text-center">
+        <div class="container-fluid text-center">
             <div class="row contact-container">
                 <div class="col">
                     <footer class="my-5">
@@ -279,7 +262,7 @@
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <label for="validationDefault02">Company Name</label>
-                                    <input type="text" class="form-control" id="validationDefault02" placeholder="*Optional*" required>
+                                    <input type="text" class="form-control" id="validationDefault02" placeholder="*Optional*">
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <label for="validationDefaultUsername" id="inputGroupPrepend2">Email</label>
@@ -287,7 +270,7 @@
                                         <div class="input-group-prepend">
 
                                         </div>
-                                        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="@email.com" aria-describedby="inputGroupPrepend2" required>
+                                        <input type="email" class="form-control" id="validationDefaultUsername" placeholder="@email.com" aria-describedby="inputGroupPrepend2" required>
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +290,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">Event Details</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please provide a short description of your event">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please provide a short description of your event" required>
                             </div>
                             <button class="btn modal-btn" type="submit" data-toggle="modal">Book</button>
 

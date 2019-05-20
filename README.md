@@ -3,7 +3,7 @@
 ## Check out my website [here](https://milestoneproject-1-gatorwam19.c9users.io/index.html)
 
 ## Objective
-My 1st Milestone Project is used display my skills learned in the following sections: 
+My 1st Milestone Project is used to display my skills learned in the following sections: 
 HTML Fundamentals, CSS Fundamentals, and User Centric Frontend Developement.
 
 ## Project Description

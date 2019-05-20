@@ -3,6 +3,7 @@
 body {
 
     font-family: 'Galindo', cursive;
+    color: #fafafa;
     background: url("assets/images/red.jpg") repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -71,7 +72,6 @@ body {
 }
 
 
-
 /*---------------navbar-------------*/
 
 
@@ -85,10 +85,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    color: #fafafa;
+}
+
+.navbar-nav {
+    padding-left: 30px;
+    color: #fafafa;
 }
 
 .navbar-brand {
-    color: #119264;
+    color: #fafafa;
     font-size: 25px;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
@@ -97,21 +104,27 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #d82389;
+    color: #119264;
 }
 
 .nav-link {
-    background-color: #52525200;
-    color: #d82389;
+    color: #fafafa;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
 }
 
+
 .nav-link:hover {
     color: #119264;
 }
+
+
+.active {
+  color: #a2a2a2;
+}
+
 
 .social-media {
     padding-top: 30px;
@@ -133,16 +146,17 @@ body {
     color: #119264;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler {
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
 
-    color: #3fe398;
+    color: #fafafa;
+    padding-right: 20px;
 }
 
 /*---------------callout container-------------*/
@@ -211,7 +225,9 @@ body {
 img.rounded {
     height: 275px;
     width: 400px;
+    margin-bottom: 40px;
 }
+
 
 
 img.rounded-circle {
@@ -220,12 +236,17 @@ img.rounded-circle {
 }
 
 
+
 img.pg {
     height: 300px;
     width: 400px;
     padding: 10px;
 }
 
+
+.tour-pics {
+    margin-top: 50px;
+}
 
 
 /*---------------footer-------------*/
@@ -251,6 +272,13 @@ footer {
 
 /*---------------general-------------*/
 
+
+.row, 
+.container {
+    margin: 0;
+    padding: 0;
+}
+
 .ad {
     padding-top: 40px;
 }
@@ -267,6 +295,11 @@ footer {
     height: 3px;
     border: 0;
     background-color: rgba(0, 0, 0, 0.46);
+}
+
+
+.block-divider-timeline {
+    background-color: transparent;
 }
 
 
@@ -378,7 +411,7 @@ footer {
 
 
 .guys {
-    padding-left: 20px;
+    margin-left: 150px;
 }
 
 .timeline-item {
@@ -417,11 +450,14 @@ footer {
 }
 
 .timeline {
-    padding-top: 20px;
+    padding: 50px;
+    padding-left: 70px;
 }
 
 
-
+.modal {
+    color: black;
+}
 
 
 

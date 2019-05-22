@@ -24,21 +24,24 @@
 <body>
     <div class="container">
         <!--NavBar-->
-        <nav class="navbar navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark bg-dark my-navbar navbar-expand-sm fixed-top">
             <a href="index.html" class="navbar-brand">The Monkees</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon my-navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-6"><a class="nav-link" href="ontour.html">Concerts</a></li>
+                <ul class="navbar-nav my-navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#top">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#audio">Listen</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#watch">Watch</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#about">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#photo">Photo Gallery</a></li>
+                    <li class="nav-item mr-6"><a class="nav-link my-nav-link" href="#tour">Concerts</a></li>
                 </ul>
                 <div class="d-none d-lg-block">
                     <p class="navbar-text my-auto mr-2"><i>Weddings? Holiday Parties?</i></p>
-                    <button type="button" class="btn btn-sm nav-btn" data-toggle="modal" data-target="#exampleModal">Book Now!</button>
+                    <button type="button" class="btn btn-sm nav-btn my-btn" data-toggle="modal" data-target="#exampleModal">Book Now!</button>
                 </div>
             </div>
         </nav>
@@ -47,58 +50,296 @@
     <hr>
     <!--CallOut-->
     <div class="background-container container-fluid">
-        <div class="column callout-container">
+
+        <div class="column callout-container" id="top">
+
 
         </div>
 
         <!--callout-->
-        <hr class="block-divider">
-        <!--Audio-->
-        <div class="row audio-container">
-            <div class="col-12">
-                <h1 class="heading">Listen</h1>
+        <div id="audio"></div>
+            <hr class="block-divider my-block-divider">
+
+            <!--Audio-->
+
+            <div class="row audio-container">
+                <div class="col-12">
+                    <h1 class="heading">Listen</h1>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center ad">
+                    <div>Daydream Believer</div>
+                    <audio src="assets/audio/DaydreamBeliever.mp3" controls> </audio>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-6 text-center ad">
+                    <div>Last Train To Clarksville</div>
+                    <audio src="assets/audio/Clarksville.mp3" controls> </audio>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center ad">
+
+                    <div>I'm A Believer</div>
+                    <audio src="assets/audio/ImABeliever.mp3" controls> </audio>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-6 text-center ad">
+                    <div>Stepping Stone</div>
+                    <audio src="assets/audio/SteppingStone.mp3" controls> </audio>
+
+                </div>
+
+
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center ad">
-                <div>Daydream Believer</div>
-                <audio src="assets/audio/DaydreamBeliever.mp3" controls> </audio>
+        
+        <div id="watch"></div>
+            </br>
+            <!--audio-->
+            <!--Video-->
+
+            <div class="row video-container">
+                <div class="col-12">
+                    <h1 class="heading">Watch</h1>
+                </div>
+
+                <div class="col-12 text-center">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="200" height="200" src="https://www.youtube.com/embed/xvqeSJlgaNk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-6 text-center ad">
-                <div>Last Train To Clarksville</div>
-                <audio src="assets/audio/Clarksville.mp3" controls> </audio>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center ad">
+        
+        <!--video-->
+        <div id="about"></div>
+        <hr class="block-divider my-block-divider">
 
-                <div>I'm A Believer</div>
-                <audio src="assets/audio/ImABeliever.mp3" controls> </audio>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-6 text-center ad">
-                <div>Stepping Stone</div>
-                <audio src="assets/audio/SteppingStone.mp3" controls> </audio>
-
-            </div>
-
-
-        </div>
-        <!--audio-->
-
-        <!--Video-->
-
-        <div class="row video-container">
-            <div class="col-12">
-                <h1 class="heading">Watch</h1>
-            </div>
-
-            <div class="col-12 text-center">
-
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/xvqeSJlgaNk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row bio-container">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row my-5">
+                <div class="callout my-callout container">
+                    <div class="col-12">
+                        <div class="heading">Bio</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="lead text">The Monkees were a four-person band who appeared in an American television series of the same name, which ran on NBC from 1966 to 1968. The Monkees were formed in 1965 in Los Angeles, California and disbanded in 1970. Several reunions
+                            of the original lineup have taken place. The first reunion lasted from 1986-1989, and a second regrouping took place between 1996-1997. The Monkees last worked together for a brief period in 2001. The four young men who became
+                            The Monkees were British-born David ('Davy') Jones (percussion/vocals), George Michael ('Micky') Dolenz (drums/vocals), Michael Nesmith (guitar/vocals), and Peter Tork (bass/keyboards/vocals). They were cast after ads were
+                            placed in trade publications calling for actors to play '4 insane boys' on a new television series.</div>
+                        <p><a class="btn btn-sm my-btn" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">Read More</a></p>
+                    </div>
+                    <!--TEXT FROM: https://www.8notes.com/biographies/monkees.asp-->
                 </div>
             </div>
         </div>
-        <!--video-->
-        <hr class="block-divider">
+        <!--callout-->
+
+        <!--Meet The Guys-->
+        <div class="row">
+            <section class="guys">
+                <div class="row d-sm-inline d-none d-sm-block">
+                    <div class="col-12 my-5">
+                        <h2>Meet the Guys</h2>
+                    </div>
+                    <div class="col-12 my-5">
+                        <div class="media block">
+                            <img src="assets/images/dj.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body">
+                                <h3>Davy Jones</h3>
+                                <div class="col-8">
+                                    <p class="lead">Born December 30th, 1945. A passionate percussionist, vocalist, singer, and songwriter Davy becomes teenage heart throb through his amazing acting and musical talents. </p>
+                                    <p><a class="btn btn-sm my-btn" href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">Read More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-5">
+                        <div class="media">
+                            <img src="assets/images/md.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body">
+                                <h3>Micky Dolenz</h3>
+                                <div class="col-8">
+                                    <p class="lead">With his show-business career in 1956 begining when he starred in a children's TV show called Circus Boy, Dolenz born March 8th, 1945, was on the fast track to becoming music legend.</p>
+                                    <p><a class="btn btn-sm my-btn" href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">Read More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 my-5">
+                        <div class="media">
+                            <img src="assets/images/mn.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body">
+                                <h3>Mike Nesmith</h3>
+                                <div class="col-8">
+                                    <p class="lead">Musician, songwriter, actor, producer, novelist, businessman, and philanthropist, Mike is most well known for his ability and talent behind the guitar. Also born December 30th in 1942. </p>
+                                    <p><a class="btn btn-sm my-btn" href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">Read More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-5">
+                        <div class="media">
+                            <img src="assets/images/pt.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body">
+                                <h3>Peter Tork</h3>
+                                <div class="col-8">
+                                    <p class="lead">Tork is a brilliant musician, composer and actor, best known as the keyboardist and bass guitarist of the Monkees. As well as Nesmith, he was also born in 1942 on February 13th. </p>
+                                    <p><a class="btn btn-sm my-btn" href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">Read More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--meet the guys-->
+
+        <div id="photo"></div>
+        </br>
+        <!--PhotoGallery-->
+
+        <div class="photo-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="heading pgh">Photo Gallery</h1>
+                </div>
+                <hr class="block-divider my-block-divider">
+                <div class="row">
+                    <div class="col-12 text-center">
+
+                        <img src="assets/images/album.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+                        <img src="assets/images/play.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+                        <img src="assets/images/album2.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+
+                        <img src="assets/images/cover1.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/cover2.png" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/cover3.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/dj.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/md.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/mn.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/pt.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/monks.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+
+                        <img src="assets/images/old.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/peace.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+
+
+
+                        <img src="assets/images/vin.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--photogallery-->
+        
+        <div id="tour"></div>
+        </br>
+
+        <!--TourDates-->
+        <div class="row tour-container">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row my-5">
+                <section class="callout my-callout container text-center">
+                    <div class="col-12">
+                        <h2>2019 Concert Dates</h2>
+                        <p><a class="btn btn-md my-btn" href="https://www.songkick.com/concerts/36347814-monkees-at-isaac-theatre-royal" target="_blank">Buy Tickets</a></p>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <hr class="block-divider my-block-divider">
+        <!--Time Line-->
+        <div class="row text-center">
+            <div class="col-8 col-md-12 d-lg-block col-lg-6 my-timeline">
+                <div class="timeline-item my-timeline-item" data-dates="Saturday 08 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4>Christchurch, New Zealand</h4>
+                    <p>Isaac Theatre Royal</p>
+                </div>
+
+                <div class="timeline-item my-timeline-item" data-dates="Sunday 09 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4> Auckland, New Zealand</h4>
+                    <p>Great Hall, Auckland Town Hall</p>
+                </div>
+
+                <div class="timeline-item my-timeline-item" data-dates="Monday 10 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4>Wellington, New Zealand</h4>
+                    <p>Michael Fowler Centre</p>
+                </div>
+
+                <div class="timeline-item my-timeline-item" data-dates="Wednesday 12 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4>Brisbane, QLD, Australia</h4>
+                    <p>Queensland Performing Arts Centre (QPAC)</p>
+                </div>
+
+                <div class="timeline-item my-timeline-item" data-dates="Saturday 15 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4>Saint Kilda, VIC, Australia</h4>
+                    <p>lais Theatre</p>
+                </div>
+
+                <div class="timeline-item my-timeline-item" data-dates="Sunday 16 June 2019">
+                    <hr class="block-divider-timeline">
+                    <h4>Perth, WA, Australia</h4>
+                    <p>Astor Theatre</p>
+                </div>
+            </div>
+
+            <div class="col-4 d-sm-inline d-none d-sm-block d-md-none d-lg-block col-lg-4 tour-pics">
+                <img src="assets/images/cover3.jpg" class="rounded my-rounded" alt="Image Not Supported In Browser">
+                <img src="assets/images/cover2.png" class="rounded my-rounded" alt="Image Not Supported In Browser">
+                <img src="assets/images/cover1.jpg" class="rounded my-rounded" alt="Image Not Supported In Browser">
+            </div>
+        </div>
+
+        <!--tourdates-->
+
         <!--ContactInfo-->
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center" id="bottom">
+            <div class="jumbo-container">
+                <div class="jumbotron my-jumbotron text-center">
+                    <h1 class="display-8">Planning an Event?</h1>
+                    <hr class="red-divider">
+                    <p class="lead">Book The Monkees for entertainment today!</p>
+                    <button type="button" class="btn btn-md my-btn" data-toggle="modal" data-target="#exampleModal">Book Now</button>
+                </div>
+            </div>
             <div class="row contact-container">
                 <div class="col">
                     <footer class="my-5">
@@ -136,7 +377,7 @@
 
     <!--Modal-->
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal my-modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -184,7 +425,7 @@
                             <label for="formGroupExampleInput">Event Details</label>
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please provide a short description of your event" required>
                         </div>
-                        <button class="btn btn-primary modal-btn" type="submit" data-toggle="modal">Book</button>
+                        <button class="btn btn-primary modal-btn my-btn" type="submit" data-toggle="modal">Book</button>
 
                     </form>
 

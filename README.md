@@ -23,8 +23,8 @@ a wide fan base needs to be focused on. The simplicity of the webpage allows for
 while the wide range of responsive design allows for the younger fan base to have easy access on any device. 
 
 * As an old fan of The Monkees tv show and band, I want to listen to some audio and watch a video of the group, so I visit the site's Landing page
-* I am a prospective fan of The Monkees, I want to see them live and check out their social media pages, so I visit the Concerts link on the Landing page and buy tickets then click on the Social Media links provided at the bottom of each page on the site.
-* I am currently a fan, I am planning an event and need entertainment, in the navigation bar on every page I have the option to book the band.
+* I am a prospective fan of The Monkees, I want to see them live and check out their social media pages, so I visit the Concerts link on the Landing page and buy tickets then click on the Social Media links provided at the bottom of the page.
+* I am currently a fan, I am planning an event and need entertainment, in the navigation bar and in the Concerts section I have the option to book the band.
 
 ### Original Mockup
 
@@ -41,10 +41,34 @@ while the wide range of responsive design allows for the younger fan base to hav
 
 ## Features
 
+### Existing Features
 * Landing / Home page
-    * slkng
+    * Navbar - Includes: Band title, Home | Bio | Events | Music | Video| Photos, and an option to book a private event. It is fixed at the top of the page to allow the useer to navigate throughout the site without scrolling back to the top.
+        * The 'Book Now!' link opens into a Modal that allows the user to book the band for a private event without having to leave the page or section they are curently on. Towards the bottom of the page bellow the '2019 Concert Dates' section there is also a Jumbotron with a button that also leads to the same Modal.
+* Audio and Video 
+    * The Audio section contains 4 audio controls linked to 4 of the band's most popular songs
+    * The Video section consists of one iconic video linked through Youtube, so the user can access more videos if they would like to watch more through the same site.
+* Bio 
+    * Snippet of text explaining how the band came about and their start on the tv show 'The Monkees' 
+        * -text taken from https://www.8notes.com/biographies/monkees.asp-. 
+    * Includes a 'Meet the Guys' section with a short bio of each band member. 
+        * Each part includes a 'Read More' button linked to Wikipedia pages where the text is also from.
+* Photo Gallery
+    * The 'Photo Gallery' section is displayed as a sliding carousel.
+* Events
+    * This section shows the 2019 Tour Dates displayed on a Timeline along with a button to allow the user to purchase tickets to the concerts displayed. 
+* Contact Us / Social Media Links
+    * The 'Contact Us' section is to allow the user a way to reach out to the band directly.
+    * The social media links give the user a way to connect with the band indirectly by following them via their personal social media accounts.
 
+### Features Left to Implement
+* What's New
+    * This feature would include new music, video, upcoming events and social media updates. 
 
 ## Tools/Technologies
-Within my code I used HTML and CSS languages using Cloud9, along with FontAwesome icons, Google Fonts, JavaScript, and Bootstrap4.
-This Milestone Project is currently hosted on GitHub pages.
+* [Cloud9](https://c9.io/login)
+    * Cloud9 hosted my Workspace for this project
+* [GitHub](https://github.com/)
+    * Project is hosted on GitHub and stores my Repositories
+* [Bootstrap4](https://getbootstrap.com/)
+    * Provided my buttons, modal, carousel, and Navbar 

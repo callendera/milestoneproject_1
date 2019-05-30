@@ -72,3 +72,7 @@ while the wide range of responsive design allows for the younger fan base to hav
     * Project is hosted on GitHub and stores my Repositories
 * [Bootstrap4](https://getbootstrap.com/)
     * Provided my buttons, modal, carousel, and Navbar 
+* [JQuery](https://jquery.com/)
+    * The project uses JQuery for DOM manipulation (Ex: Modal)
+* [JavaScript](https://www.javascript.com/)
+    * Bootstrap4 provided this project with certain JavaScript extensions for functionality (Ex: Modal)

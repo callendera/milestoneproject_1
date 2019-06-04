@@ -25,8 +25,11 @@
     <nav class="navbar navbar-dark bg-dark my-navbar navbar-expand-sm fixed-top">
         <a href="index.html" class="navbar-brand">The Monkees</a>
 
+
         <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon my-navbar-toggler-icon"></span></button>
+
+
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav my-navbar-nav mr-auto">
@@ -38,12 +41,11 @@
             </ul>
             <div class="d-none d-lg-block">
                 <p class="navbar-text my-auto mr-2"><i>Weddings? Holiday Parties?</i></p>
-                <button type="button" class="btn btn-sm nav-btn my-btn" data-toggle="modal" data-target="#exampleModal">Book Now!</button>
+                <button type="button" class="btn btn-sm my-nav-btn" data-toggle="modal" data-target="#exampleModal">Book Now!</button>
             </div>
         </div>
     </nav>
     <!--navbar-->
-    <hr>
     <!--CallOut-->
     <div class="container-fluid">
 
@@ -107,10 +109,10 @@
             <div class="row my-5">
                 <div class="callout my-callout container">
                     <div class="col-12">
-                        <div class="bio-heading">Bio</div>
+                        <div class="heading bio-heading">Bio</div>
                     </div>
                     <div class="col-12">
-                        <div class="lead bio-text">The Monkees were a four-person band who appeared in an American television series of the same name, which ran on NBC from 1966 to 1968. The Monkees were formed in 1965 in Los Angeles, California and disbanded in 1970. Several reunions
+                        <div class="lead text bio-text">The Monkees were a four-person band who appeared in an American television series of the same name, which ran on NBC from 1966 to 1968. The Monkees were formed in 1965 in Los Angeles, California and disbanded in 1970. Several reunions
                             of the original lineup have taken place. The first reunion lasted from 1986-1989, and a second regrouping took place between 1996-1997. The Monkees last worked together for a brief period in 2001. The four young men who became
                             The Monkees were British-born David ('Davy') Jones (percussion/vocals), George Michael ('Micky') Dolenz (drums/vocals), Michael Nesmith (guitar/vocals), and Peter Tork (bass/keyboards/vocals). They were cast after ads were
                             placed in trade publications calling for actors to play '4 insane boys' on a new television series.</div>
@@ -124,63 +126,62 @@
 
         <!--Meet The Guys-->
         <div class="row">
-            <section class="guys">
+            <div class="guys">
                 <div class="col-12">
                     <div class="col-12 my-5">
                         <div class="heading mtg-heading text-center">Meet the Guys</div>
                     </div>
 
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <img src="assets/images/dj.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
-                                <div class="media-body my-media-body">
-                                    <div class="title lead">Davy Jones</div>
-                                </div>
+                    <div class="row guys-row text-center">
+                        <div class="col">
+                            <img src="assets/images/dj.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body my-media-body">
+                                <div class="title lead">Davy Jones</div>
                             </div>
-                            <div class="col">
-                                <img src="assets/images/md.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
-                                <div class="media-body my-media-body">
-                                    <div class="title lead">Micky Dolenz</div>
-                                </div>
+                        </div>
+                        <div class="col">
+                            <img src="assets/images/md.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body my-media-body">
+                                <div class="title lead">Micky Dolenz</div>
                             </div>
-                            <div class="w-100"></div>
-                            <div class="col">
-                                <img src="assets/images/mn.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
-                                <div class="media-body my-media-body">
-                                    <div class="title lead">Mike Nesmith</div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <img src="assets/images/mn.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body my-media-body">
+                                <div class="title lead">Mike Nesmith</div>
 
-                                </div>
                             </div>
-                            <div class="col">
-                                <img src="assets/images/pt.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
-                                <div class="media-body my-media-body">
-                                    <div class="title lead">Peter Tork</div>
+                        </div>
+                        <div class="col">
+                            <img src="assets/images/pt.jpg" class="rounded-circle my-rounded-circle mr-3" alt="Image Not Supported In Browser">
+                            <div class="media-body my-media-body">
+                                <div class="title lead">Peter Tork</div>
 
-                                </div>
                             </div>
                         </div>
                     </div>
 
-                    
+
                 </div>
-            </section>
+            </div>
         </div>
         <!--meet the guys-->
 
         <div id="photo"></div>
         <br>
+        <br>
         <!--PhotoGallery-->
 
         <div class="photo-container">
-            <div class="row">
-                <div class="col-12 text-center">
+            <div class="row text-center">
+                <div class="col-12">
                     <div class="heading pgh">Photo Gallery</div>
                     <hr class="block-divider my-block-divider">
                 </div>
 
                 <div class="row">
-                    <div class="col-12">
+                    
                         <div id="my-carousel" class="carousel pg-carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item pg-carousel-item active" data-target="my-carousel">
@@ -200,6 +201,12 @@
                                 </div>
                                 <div class="carousel-item pg-carousel-item" data-target="my-carousel">
                                     <img src="assets/images/vin.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                                </div>
+                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                    <img src="assets/images/cover3.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                                </div>
+                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                    <img src="assets/images/cover1.jpg" class="rounded pg" alt="Image Not Supported In Browser">
                                 </div>
                                 <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -240,51 +247,52 @@
 
         <hr class="block-divider my-block-divider">
         <!--Time Line-->
-        <div class="row text-center">
-            <div class="col-12 col-md-12 d-lg-block col-lg-6 my-timeline">
+        <div class="row">
+            <div class="col-12 col-md-12 d-lg-block col-lg-12 my-timeline">
                 <div class="timeline-item my-timeline-item" data-dates="Saturday 08 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4>Christchurch, New Zealand</h4>
                     <p>Isaac Theatre Royal</p>
+
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Sunday 09 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4> Auckland, New Zealand</h4>
                     <p>Great Hall, Auckland Town Hall</p>
+
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Monday 10 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4>Wellington, New Zealand</h4>
                     <p>Michael Fowler Centre</p>
+
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Wednesday 12 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4>Brisbane, QLD, Australia</h4>
                     <p>Queensland Performing Arts Centre (QPAC)</p>
+
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Saturday 15 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4>Saint Kilda, VIC, Australia</h4>
                     <p>lais Theatre</p>
+
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Sunday 16 June 2019">
-                    <hr class="block-divider-timeline">
+                    <br>
                     <h4>Perth, WA, Australia</h4>
                     <p>Astor Theatre</p>
+
                 </div>
             </div>
 
-            <div class="col-4 d-sm-inline d-none d-sm-block d-md-none d-lg-block col-lg-4 tour-pics">
-                <img src="assets/images/cover3.jpg" class="rounded my-rounded" alt="Image Not Supported In Browser">
-                <img src="assets/images/cover2.png" class="rounded my-rounded" alt="Image Not Supported In Browser">
-                <img src="assets/images/cover1.jpg" class="rounded my-rounded" alt="Image Not Supported In Browser">
-            </div>
-        </div>
+    
 
         <!--tourdates-->
 

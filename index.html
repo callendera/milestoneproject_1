@@ -10,11 +10,14 @@
     
 
 
-
+    <!--this code gives me my fonts-->
     <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
+    <!--this code provides my Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--this code allows me to use bootstrap styles and pieces of code-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    
+    <!--links to my style sheet: style.css-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 
@@ -22,16 +25,18 @@
 
 <body>
     <!--NavBar-->
+        <!--Navbar styles are given by the class names. and the navbar is fixed at the top to allow a better UX-->
     <nav class="navbar navbar-dark bg-dark my-navbar navbar-expand-sm fixed-top">
         <a href="index.html" class="navbar-brand">The Monkees</a>
 
-
+        <!--this code allows my navbar tp be compressed into a navbar toggler on smaller screen sizes-->
         <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon my-navbar-toggler-icon"></span></button>
 
 
-
+        <!--this code targets the toggler-->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!--these are my links to navigate you through the site-->
             <ul class="navbar-nav my-navbar-nav mr-auto">
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#top">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#audio">Music</a></li>
@@ -39,7 +44,9 @@
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="#photo">Photos</a></li>
                 <li class="nav-item mr-6"><a class="nav-link my-nav-link" href="#tour">Events</a></li>
             </ul>
+            <!--This code blocks the button and text from being shown on small screens, but appears on larger screen sizes-->
             <div class="d-none d-lg-block">
+                <!--gives the viewer the oportunity to book the band for any events while still browsing the site-->
                 <p class="navbar-text my-auto mr-2"><i>Weddings? Holiday Parties?</i></p>
                 <button type="button" class="btn btn-sm my-nav-btn" data-toggle="modal" data-target="#exampleModal">Book Now!</button>
             </div>

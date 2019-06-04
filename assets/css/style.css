@@ -164,17 +164,12 @@ body {
 
 
 img.my-rounded {
-    height: 275px;
-    width: 400px;
+    height: 250px;
+    width: 330px;
     margin-bottom: 20px;
 }
 
 
-
-img.my-rounded-circle {
-    height: 150px;
-    width: 200px;
-}
 
 img.pg {
     height: 250px;
@@ -183,9 +178,6 @@ img.pg {
     margin-bottom: 130px;
 }
 
-.tour-pics {
-    margin-top: 50px;
-}
 
 
 
@@ -603,15 +595,6 @@ div.guys {
 }
 }
 
-     img.my-rounded-circle {
-    height: 300px;
-    width: 350px;
-}
-
-    img.pg {
-    height: 400px;
-    width: 500px;
-    }
 
 
 

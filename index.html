@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees | Book Us Today!</title>
 
-    
+
 
 
     <!--this code gives me my fonts-->
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--this code allows me to use bootstrap styles and pieces of code-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <!--links to my style sheet: style.css-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
@@ -25,7 +25,7 @@
 
 <body>
     <!--NavBar-->
-        <!--Navbar styles are given by the class names. and the navbar is fixed at the top to allow a better UX-->
+    <!--Navbar styles are given by the class names. and the navbar is fixed at the top to allow a better UX-->
     <nav class="navbar navbar-dark bg-dark my-navbar navbar-expand-sm fixed-top">
         <a href="index.html" class="navbar-brand">The Monkees</a>
 
@@ -54,15 +54,18 @@
     </nav>
     <!--navbar-->
     <!--CallOut-->
+        <!-- this div allows for a full width container, spanning the entire width of the viewport.-->
     <div class="container-fluid">
-
+        
+        <!--holds the background picture for the home section-->
         <div class="column callout-container" id="top">
         </div>
-        <!--callout-->
+    <!--callout-->
+        
+        <!--allows navbar to navigate to the audio section-->
         <div id="audio"></div>
-        <hr class="block-divider my-block-divider">
 
-        <!--Audio-->
+    <!--Audio-->
 
         <div class="row audio-container">
             <div class="col-12">
@@ -109,7 +112,6 @@
 
         <!--video-->
         <div id="about"></div>
-        <hr class="block-divider my-block-divider">
 
         <div class="row bio-container">
             <div class="opaque-overlay">&nbsp;</div>
@@ -188,118 +190,117 @@
                 </div>
 
                 <div class="row">
-                    
-                        <div id="my-carousel" class="carousel pg-carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item pg-carousel-item active" data-target="my-carousel">
-                                    <img src="assets/images/play.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/album2.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/monks.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/old.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/peace.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/vin.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/cover3.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <div class="carousel-item pg-carousel-item" data-target="my-carousel">
-                                    <img src="assets/images/cover1.jpg" class="rounded pg" alt="Image Not Supported In Browser">
-                                </div>
-                                <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+
+                    <div id="my-carousel" class="carousel pg-carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item pg-carousel-item active" data-target="my-carousel">
+                                <img src="assets/images/play.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/album2.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/monks.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/old.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/peace.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/vin.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/cover3.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <div class="carousel-item pg-carousel-item" data-target="my-carousel">
+                                <img src="assets/images/cover1.jpg" class="rounded pg" alt="Image Not Supported In Browser">
+                            </div>
+                            <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                               </a>
-                                <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                               </a>
-                            </div>
                         </div>
-
                     </div>
+
                 </div>
-            </div>
-
-        </div>
-        <hr class="block-divider my-block-divider">
-        <!--photogallery-->
-        <br>
-        <br>
-        <div id="tour"></div>
-        <br>
-
-        <!--TourDates-->
-        <div class="row tour-container">
-            <div class="opaque-overlay">&nbsp;</div>
-            <div class="row my-5">
-                <section class="callout my-callout container text-center">
-                    <div class="col-12">
-                        <div class="heading">2019 Concert Dates</div>
-                        <p><a class="btn btn-md my-btn" href="https://www.songkick.com/concerts/36347814-monkees-at-isaac-theatre-royal" target="_blank">Buy Tickets</a></p>
-                    </div>
-
-                </section>
             </div>
         </div>
 
-        <hr class="block-divider my-block-divider">
-        <!--Time Line-->
-        <div class="row">
-            <div class="col-12 col-md-12 d-lg-block col-lg-12 my-timeline">
-                <div class="timeline-item my-timeline-item" data-dates="Saturday 08 June 2019">
-                    <br>
-                    <h4>Christchurch, New Zealand</h4>
-                    <p>Isaac Theatre Royal</p>
+    </div>
+    <hr class="block-divider my-block-divider">
+    <!--photogallery-->
+    <br>
+    <br>
+    <div id="tour"></div>
+    <br>
 
+    <!--TourDates-->
+    <div class="row tour-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row my-5">
+            <section class="callout my-callout container text-center">
+                <div class="col-12">
+                    <div class="heading">2019 Concert Dates</div>
+                    <p><a class="btn btn-md my-btn" href="https://www.songkick.com/concerts/36347814-monkees-at-isaac-theatre-royal" target="_blank">Buy Tickets</a></p>
                 </div>
 
-                <div class="timeline-item my-timeline-item" data-dates="Sunday 09 June 2019">
-                    <br>
-                    <h4> Auckland, New Zealand</h4>
-                    <p>Great Hall, Auckland Town Hall</p>
+            </section>
+        </div>
+    </div>
 
-                </div>
+    <!--Time Line-->
+    <div class="row">
+        <div class="col-12 col-md-12 d-lg-block col-lg-12 my-timeline">
+            <div class="timeline-item my-timeline-item" data-dates="Saturday 08 June 2019">
+                <br>
+                <h4>Christchurch, New Zealand</h4>
+                <p>Isaac Theatre Royal</p>
 
-                <div class="timeline-item my-timeline-item" data-dates="Monday 10 June 2019">
-                    <br>
-                    <h4>Wellington, New Zealand</h4>
-                    <p>Michael Fowler Centre</p>
-
-                </div>
-
-                <div class="timeline-item my-timeline-item" data-dates="Wednesday 12 June 2019">
-                    <br>
-                    <h4>Brisbane, QLD, Australia</h4>
-                    <p>Queensland Performing Arts Centre (QPAC)</p>
-
-                </div>
-
-                <div class="timeline-item my-timeline-item" data-dates="Saturday 15 June 2019">
-                    <br>
-                    <h4>Saint Kilda, VIC, Australia</h4>
-                    <p>lais Theatre</p>
-
-                </div>
-
-                <div class="timeline-item my-timeline-item" data-dates="Sunday 16 June 2019">
-                    <br>
-                    <h4>Perth, WA, Australia</h4>
-                    <p>Astor Theatre</p>
-
-                </div>
             </div>
 
-    
+            <div class="timeline-item my-timeline-item" data-dates="Sunday 09 June 2019">
+                <br>
+                <h4> Auckland, New Zealand</h4>
+                <p>Great Hall, Auckland Town Hall</p>
+
+            </div>
+
+            <div class="timeline-item my-timeline-item" data-dates="Monday 10 June 2019">
+                <br>
+                <h4>Wellington, New Zealand</h4>
+                <p>Michael Fowler Centre</p>
+
+            </div>
+
+            <div class="timeline-item my-timeline-item" data-dates="Wednesday 12 June 2019">
+                <br>
+                <h4>Brisbane, QLD, Australia</h4>
+                <p>Queensland Performing Arts Centre (QPAC)</p>
+
+            </div>
+
+            <div class="timeline-item my-timeline-item" data-dates="Saturday 15 June 2019">
+                <br>
+                <h4>Saint Kilda, VIC, Australia</h4>
+                <p>lais Theatre</p>
+
+            </div>
+
+            <div class="timeline-item my-timeline-item" data-dates="Sunday 16 June 2019">
+                <br>
+                <h4>Perth, WA, Australia</h4>
+                <p>Astor Theatre</p>
+
+            </div>
+        </div>
+
+
 
         <!--tourdates-->
 

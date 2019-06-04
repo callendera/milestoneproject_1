@@ -603,9 +603,15 @@ div.guys {
 }
 }
 
+     img.my-rounded-circle {
+    height: 300px;
+    width: 350px;
+}
 
-
-
+    img.pg {
+    height: 400px;
+    width: 500px;
+    }
 
 
 

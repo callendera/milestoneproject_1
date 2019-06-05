@@ -12,6 +12,7 @@
 body {
     /*--- gives a font style to the entire webpage ---*/
     font-family: 'Galindo', cursive;
+        /*--- color of text ---*/
     color: #fafafa;
     /*--- sets background image for the entire body. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and vertically. the background will also not scroll, but remained positioned---*/
     background: url(/assets/images/red.jpg) repeat center center fixed;
@@ -74,7 +75,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    
+        /*--- color of text ---*/
     color: #fafafa;
 
     display: flex;
@@ -104,6 +106,7 @@ body {
     -o-background-size: contain;
     background-size: contain;
     
+    /*--- color of text ---*/
     color: #fafafa;
 }
 
@@ -132,11 +135,13 @@ body {
     background: no-repeat center center;
     background-size: 100% 100%;
 
+    /*--- color of text ---*/
     color: #fafafa;
     margin-right: 30px;
 }
 
 .my-navbar-toggler-icon {
+    /*--- color of icon ---*/
     color: #fafafa;
     
 }
@@ -175,7 +180,9 @@ body {
 
 
 .my-jumbotron {
+    /*--- color of text ---*/
     color: #fafafa;
+    /*--- makes background a dark grey color and slightly transparent ---*/
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -202,13 +209,18 @@ img.pg {
 /*---------------BUTTONS-------------*/
 
 .my-nav-btn {
+    /*--- no background color ---*/
     background-color: transparent;
+    /*--- color of text green ---*/
     color: #20b978;
 }
 
 .nav-btn:hover {
+    /*--- color of text darker green ---*/
     color: #119264;
+    /*--- no background color ---*/
     background-color: transparent;
+    /*--- when hovered with mouse the icon will change color slightly so the user knows you can click on it. when the transition to this hovered color will last .40secounds the color will gradually ease in and then ease out ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -218,12 +230,16 @@ img.pg {
 
 
 .my-btn {
+    /*--- color of text: white ---*/
     color: #fafafa;
+    /*--- green background color ---*/
     background-color: #20b978;
 }
 
 .my-btn:hover {
+    /*--- color of background: darker green ---*/
     background-color: #119264;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;

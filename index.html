@@ -410,55 +410,78 @@
     <!--contactinfo-->
 
     <!--Modal-->
-
+            <!--The modal will appear after the button links in the navbar and the jumbotron are clicked. 
+            it provides a form for the user to fill out to book the band for private events.-->
+            
+            <!--when this modal appears it will fade the background. the id targets the modal from the buttons-->
     <div class="modal my-modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
+                    <!--this is the title that appears at the top of the modal-->
                     <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                    <!--provides an X to close out of the modal-->
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!--the close symbol-->
                   <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body">
+                    <!--this is where the form begins-->
                     <form>
                         <div class="form-row">
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-4 mb-3">
                                 <label for="validationDefault01">Your Name</label>
+                                <!--this input field has to be filled with text, with a placeholder that asks for 1st and last name. and the field is required to complete the form.-->
                                 <input type="text" class="form-control" id="validationDefault01" placeholder="First and Last" required>
                             </div>
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-4 mb-3">
                                 <label for="validationDefault02">Company Name</label>
+                                <!--this input field in not required and is optional to place a compnay name that is hosting an event-->
                                 <input type="text" class="form-control" id="validationDefault02" placeholder="*Optional*">
                             </div>
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-4 mb-3">
+                                
                                 <label for="validationDefaultUsername" id="inputGroupPrepend2">Email</label>
                                 <div class="input-group">
+                                    <!--adds help text-->
                                     <div class="input-group-prepend">
 
                                     </div>
+                                        <!--this input field has to be filled with @email.net structure, with a placeholder @email.com. and the field is required to complete the form.-->
                                     <input type="email" class="form-control" id="validationDefaultUsername" placeholder="@email.com" aria-describedby="inputGroupPrepend2" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-6 mb-3">
                                 <label for="validationDefault03">Where?</label>
+                                <!--this input field has to be filled with text, with a placeholder Address. and the field is required to complete the form.-->
                                 <input type="text" class="form-control" id="validationDefault03" placeholder="Address" required>
                             </div>
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault04">Date</label>
+                                <!--this input field has to be filled with text, with a placeholder that has a date structure. and the field is required to complete the form.-->
                                 <input type="text" class="form-control" id="validationDefault04" placeholder="08/10/2019" required>
                             </div>
+                            <!--spacing for the field on a grid system-->
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault05">Time</label>
+                                <!--this input field has to be filled with text, with a placeholder of time. and the field is required to complete the form.-->
                                 <input type="text" class="form-control" id="validationDefault05" placeholder="12:00am EST" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Event Details</label>
+                            <!--this input field has to be filled with text, with a placeholder that asks for event details. and the field is required to complete the form.-->
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please provide a short description of your event" required>
                         </div>
+                        <!--button allows you to submit the form!-->
                         <button class="btn modal-btn my-btn" type="submit" data-toggle="modal">Book</button>
 
                     </form>
@@ -466,11 +489,14 @@
                 </div>
             </div>
             <!--Modal & Button from: https://getbootstrap.com/docs/4.3/components/modal/-->
-
+            
+            <!--script used for DOM manipulation in modal-->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+            <!--positioning engine, used throughout webpage-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
+            
+            <!--script needed to link my bootstrap classes-->
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         </div>
     </div>

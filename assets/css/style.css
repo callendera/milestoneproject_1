@@ -8,8 +8,9 @@
 
 /*---------------BACKGROUND CONTAINERS-------------*/
 
-body {
 
+body {
+    
     font-family: 'Galindo', cursive;
     color: #fafafa;
     background: url(/assets/images/red.jpg) repeat center center fixed;

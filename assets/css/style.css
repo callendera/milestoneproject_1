@@ -11,7 +11,7 @@
 
 body {
     /*--- gives a font style to the entire webpage ---*/
-    font-family: 'Galindo', cursive;
+    font-family: 'Overpass', sans-serif;
         /*--- color of text white ---*/
     color: #fafafa;
     /*--- sets background image for the entire body. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and vertically. the background will also not scroll, but remained positioned---*/
@@ -95,6 +95,7 @@ body {
 
 
 .my-navbar {
+    font-family: 'Permanent Marker', cursive;
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
     /*--- removes padding automatically set by bootstrap ---*/
@@ -161,7 +162,9 @@ body {
     
 }
 
-
+.my-navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
 
 /*---------------IMAGES-------------*/
 
@@ -452,7 +455,7 @@ img.pg {
     margin: 0;
 }
 
-/*--- 'after' sets dots  ---*/
+/*--- 'after sets dots  ---*/
 .my-timeline-item:after {
     width: 12px;
     height: 12px;

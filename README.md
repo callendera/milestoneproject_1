@@ -22,9 +22,11 @@ With The Monkees being a 1960s rock group and the growing popularity amoung youn
 a wide fan base needs to be focused on. The simplicity of the webpage allows for the older fans to be able to navigate smoothly, 
 while the wide range of responsive design allows for the younger fan base to have easy access on any device. 
 
-* As an old fan of The Monkees tv show and band, I want to listen to some audio and watch a video of the group, so I visit the site's Landing page
-* I am a prospective fan of The Monkees, I want to see them live and check out their social media pages, so I visit the Concerts link on the Landing page and buy tickets then click on the Social Media links provided at the bottom of the page.
-* I am currently a fan, I am planning an event and need entertainment, in the navigation bar and in the Concerts section I have the option to book the band.
+* As an old fan of The Monkees tv show and band, I want to listen to some audio and watch a video of the group, so I visit the site's Landing page and use the navbar to direct me to the 'Music' section
+* I am a prospective fan of The Monkees, I want to see them live and check out their social media pages, so I visit the Events link on the Landing page and buy tickets then click on the Social Media links provided at the bottom of the page. Both social media links and the 'buy tickets' buttons take me to a seperate page so I can easily come back to the main website. 
+* I am currently a fan, I am planning an event and need entertainment, in the navigation bar and at the end of the page I have the option to book the band. Both buttons open into the same modal where I can fill out a form. After the form is completed and filled out with appropriate info it will send an automatted email to The Monkees. 
+* I am trying to find more information on the band itself and its members. After visiting the landing page i use the navigation bar to take me to the Bio section. There I find a short bio for the overall band and for each band member with buttons gicing me the option to read more. these links open a seperate tab so I can always go right back to the original website.
+* I'd like to see some photos of the band. After visiting the landing page I can click on the Photos option in the navigation bar where im then led to a Carousel that highlights the photo gallery. The carousel slides on its own so I don't have to accelerate it manually, but I have the ability to if I want to. I also have the option to go back to the previous image.
 
 ### Original Mockup
 
@@ -76,7 +78,5 @@ while the wide range of responsive design allows for the younger fan base to hav
     * The project uses JQuery for DOM manipulation (Ex: Modal)
 * [JavaScript](https://www.javascript.com/)
     * Bootstrap4 provided this project with certain JavaScript extensions for functionality (Ex: Modal)
-* [HTML Validator](https://validator.w3.org/)
-    * Used to check HTML code for errors
-* [CSS Validator](https://jigsaw.w3.org/css-validator/)
-    * Used to check CSS code for errors
+
+## Testing

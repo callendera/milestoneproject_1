@@ -232,6 +232,10 @@ img.pg {
 
 /*---------------BUTTONS-------------*/
 
+.buy-btn {
+    text-align: left;
+}
+
 .my-nav-btn {
     /*--- no background color ---*/
     background-color: transparent;

@@ -78,11 +78,13 @@ body {
     
         /*--- color of text ---*/
     color: #fafafa;
-
+    
+    /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
+        /*--- positioned relative to its normal position ---*/
     position: relative;
     
 }
@@ -93,6 +95,7 @@ body {
 
 
 .my-navbar {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -123,6 +126,7 @@ body {
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
 }
 
 
@@ -137,6 +141,7 @@ body {
 
     /*--- color of text ---*/
     color: #fafafa;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-right: 30px;
 }
 
@@ -190,6 +195,7 @@ body {
 img.my-rounded {
     height: 200px;
     width: 250px;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-bottom: 20px;
 }
 
@@ -198,6 +204,7 @@ img.my-rounded {
 img.pg {
     height: 250px;
     width: 330px;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-top: 130px;
     margin-bottom: 130px;
 }
@@ -225,6 +232,7 @@ img.pg {
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
 }
 
 
@@ -244,6 +252,7 @@ img.pg {
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
 }
 
 /*---------------BLOCK DIVIDERS-------------*/
@@ -310,6 +319,7 @@ img.pg {
 
 .row, 
 .container {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
     padding: 0;
 }
@@ -322,12 +332,15 @@ img.pg {
 
 
 .guys {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .my-media-body {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
+    /*--- set margin on bottom ---*/
     margin-bottom: 100px;
 }
 
@@ -340,6 +353,7 @@ img.pg {
 }
 
 .guys-row {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 20px;
 }
 
@@ -370,6 +384,7 @@ img.pg {
 .video-container {
     padding-top: 20px;
     padding-bottom: 30px;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 5px;
 }
 
@@ -386,6 +401,7 @@ img.pg {
 
 .my-timeline-item p {
     padding: 0;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
 }
 
@@ -398,6 +414,7 @@ img.pg {
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
+    /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
 }
 
@@ -430,10 +447,12 @@ img.pg {
 
 @media (min-width: 576px) {
     div.guys {
+        /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
     }
     
     div.guys-row {
+        /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 0;
 }
     
@@ -518,6 +537,7 @@ img.pg {
 
         position: inherit;
 
+            /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
         padding: 0;
     
@@ -586,6 +606,7 @@ img.pg {
 
         position: inherit;
 
+            /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
         padding: 0;
     
@@ -593,6 +614,7 @@ img.pg {
   
   
   div.guys {
+      /*--- removes margins automatically set by bootstrap ---*/
         margin-left: 35px;
     }
     
@@ -623,6 +645,7 @@ img.pg {
 
         position: inherit;
 
+            /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
         padding: 0;
 }
@@ -637,6 +660,7 @@ div.my-timeline {
 }
 
 div.guys {
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 140px;
     margin-right: 140px;
 }

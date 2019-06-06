@@ -80,3 +80,71 @@ while the wide range of responsive design allows for the younger fan base to hav
     * Bootstrap4 provided this project with certain JavaScript extensions for functionality (Ex: Modal)
 
 ## Testing
+### Automated Testing
+* Validation Services
+    * [W3C Markup Validator](https://validator.w3.org/) was used to validate my HTML code.
+    * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
+
+### UX stories testing
+* As a user I want to: 
+    
+    * Listen to music and videos
+        * After coming to the landing page
+        * In the NavBar there is an option for 'Music'
+        * After clicking link I am redirected to the 'Music' and 'Video' section of the page.
+        * There are 4 options for songs. Each has functional controls: Play/Pause, jump to different parts of song, volume controls, and an option to download the audio. Each works as expected.
+        * There is 1 video available, appears to be a Youttube video. Has functional control: play/pause, jump to different parts of video, volume controls, full-screen option, a way to share the video, get more info on the video, and an option to watch later. All options and controls are completely functional. 
+        * When the video is finished, more videos of The Monkees pop up to encourage the user to visit their YouTube channel.
+    
+    * Learn more about the band and its members
+        * After coming to the landing page 
+        * In the Navbar there is an option for 'Bio'
+        * After clicking link I am directed to a bio of the band as a whole. 
+        * The short bio is concluded with a link Button encouraging the reader to Read More
+        * If the user clicks the Read More button it will will open a seperate tab to the wikipedia page for the monkees. 
+        * the original website is there for the user to return to when the finish with wikipedia
+        * Upon scrolling down slightly the user is shown a 'Meet The Guys' section
+        * The section is highlighted with pictures of each band member, a short bio for each, and a link to Read More.
+        * after clicking the link to Read More each button leads the user to another seperate tab that opens each members wikipedia pages.
+        * When the user is finished with each page they can come directly back to where they started the bio.
+    
+    * Check out pictures of the band
+        * Upon making it to the landing page
+        * there is a link provided in the NavBar called 'Photos'
+        * after clicking that link the user is directed to the 'Photo Gallery'
+        * In the Photo Gallery the pictures are displayed on a Carousel.
+        * the carousel is set to slide the images on its own, but can also be manipulated to skip ahead to the next or show the previous image
+        * both options are shown using an arrow on the left and right side of the carousel.
+    
+    * See the band live
+        * after coming to the webpage's landing page
+        * the navbar gives a link to the 'Events' section
+        * upon clicking on that link you are directed to the '2019 concert dates'
+        * scroll down slightly and a timeline appears that lets the user soo the dates and places for each concert.
+        * under the place the event is being held is a link that says 'Buy Tickets!'
+        * click the link and a seperate tab will open and give the user a dirrect website to purchase tickets.
+    
+    * Plan a Private event 
+        * there are 2 seperate routes to take to book the band for a private event 
+            * NavBar
+                * upon coming to the landing page in the NavBar it gives the opton to 'Book Now' 
+                * if you click on this button, it will open a Modal.
+                * the screen behind the modal fades
+                * there is an input field for a name, company name, email, date, time, place, and description.
+                * all of these options are required except the company name.
+                * when you try to send the form it will pop up notifications for the one that are left blank or improperly filled in.
+                * after you have the appropriate information in each blank and you hit the book button the form will close and bring you back to the website in the spot where you left off.
+            * Jumbotron
+                * in the section following the timeline is a Jumbotron with an option for the user to book a private event as well. 
+                * The same modal pops up there as well with all of the same functionality. 
+        * reasoning for 2 sections
+            * The users main goal may be to come to the site and book the event, so I made the option available as soon as you come to the landing page.
+            * after scrolling throught the site for someone who may just be there to listen to music or check out pictures, booking the band may come as an after thought. so after the user looks at the event section the idea to plan an event and to book the band may be more prevelant after checking out the site.
+    
+    * Check out Social Media
+        * if the usert is there to look at the site i provided the social media links at the bottom to encourage the user to scroll the entire site to see what we have to offer
+        * upon clicking any of the 3 social media links it opens a seperate tab that leads them directly to the specific social media page.
+    
+    * ANY AND ALL BUTTONS AND LINKS
+        * have a hover transition that slightly change the color to a darker green (if already green) or a brighter white (if already white) when the mouse is hovered over the link or button
+        * this lets the user know that is is able to be clicked 

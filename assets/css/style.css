@@ -97,6 +97,7 @@ body {
 .my-navbar {
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0;
@@ -114,6 +115,7 @@ body {
 }
 
 .my-navbar-nav {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
     color: #fafafa;
 }
@@ -279,6 +281,7 @@ img.pg {
 /*---------------GENERAL: fonts, transitions, spacing-------------*/
 
 .social-media {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 30px;
 }
 
@@ -300,6 +303,7 @@ img.pg {
 
 
 .mtg-heading {
+    /*--- removes margin automatically set by bootstrap ---*/
     margin-left: 20px;
 }
 
@@ -321,10 +325,12 @@ img.pg {
 .container {
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
+    /*--- removes padding automatically set by bootstrap ---*/
     padding: 0;
 }
 
 .ad {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 40px;
 }
 
@@ -370,11 +376,13 @@ img.pg {
 
 
 .jumbo-container {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 40px;
 }
 
 
 .audio-container {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 20px;
     padding-bottom: 30px;
 
@@ -382,6 +390,7 @@ img.pg {
 }
 
 .video-container {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 20px;
     padding-bottom: 30px;
     /*--- removes margins automatically set by bootstrap ---*/
@@ -394,12 +403,14 @@ img.pg {
 
 
 .my-timeline-item {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding: 4em 2em 0em 2em;
     position: relative;
     border-left: 1px solid;
 }
 
 .my-timeline-item p {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding: 0;
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
@@ -413,6 +424,7 @@ img.pg {
     display: block;
     font-weight: 500;
     font-size: 0.8em;
+    /*--- removes padding automatically set by bootstrap ---*/
     padding: 0;
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
@@ -431,6 +443,7 @@ img.pg {
 }
 
 .my-timeline {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 66px;
     padding-top: 20px;
     padding-right: 50px;
@@ -502,6 +515,7 @@ img.pg {
     }
     
     div.my-timeline {
+        /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 60px;
     padding-right: 40px;
     padding-top: 20px;
@@ -556,6 +570,7 @@ img.pg {
 }
 }
     div.my-timeline {
+        /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 110px;
     padding-right: 110px;
     padding-top: 20px;
@@ -575,6 +590,7 @@ img.pg {
 }
 
     div.my-timeline {
+        /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 200px;
     }
 
@@ -608,6 +624,7 @@ img.pg {
 
             /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
+        /*--- removes padding automatically set by bootstrap ---*/
         padding: 0;
     
   }
@@ -647,6 +664,7 @@ img.pg {
 
             /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
+        /*--- removes padding automatically set by bootstrap ---*/
         padding: 0;
 }
 
@@ -655,6 +673,7 @@ img.pg {
 }
 
 div.my-timeline {
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 260px;
     text-align: center;
 }

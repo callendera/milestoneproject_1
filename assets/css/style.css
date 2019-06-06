@@ -12,7 +12,7 @@
 body {
     /*--- gives a font style to the entire webpage ---*/
     font-family: 'Galindo', cursive;
-        /*--- color of text ---*/
+        /*--- color of text white ---*/
     color: #fafafa;
     /*--- sets background image for the entire body. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and vertically. the background will also not scroll, but remained positioned---*/
     background: url(/assets/images/red.jpg) repeat center center fixed;
@@ -53,7 +53,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-        /*--- text color ---*/
+        /*--- text color white ---*/
     color: #fafafa;
         
         /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
@@ -76,7 +76,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     
-        /*--- color of text ---*/
+        /*--- color of text white ---*/
     color: #fafafa;
     
     /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
@@ -110,20 +110,23 @@ body {
     -o-background-size: contain;
     background-size: contain;
     
-    /*--- color of text ---*/
+    /*--- color of text white ---*/
     color: #fafafa;
 }
 
 .my-navbar-nav {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
+    /*--- color of text white ---*/
     color: #fafafa;
 }
 
 
 
 .my-nav-link {
+    /*--- color of text white ---*/
     color: #fafafa;
+    /*--- color change transition when hovering over my-nav-link ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -141,14 +144,14 @@ body {
     background: no-repeat center center;
     background-size: 100% 100%;
 
-    /*--- color of text ---*/
+    /*--- color of text white ---*/
     color: #fafafa;
     /*--- removes margins automatically set by bootstrap ---*/
     margin-right: 30px;
 }
 
 .my-navbar-toggler-icon {
-    /*--- color of icon ---*/
+    /*--- color of icon white ---*/
     color: #fafafa;
     
 }
@@ -163,6 +166,7 @@ body {
     }
 
 .opaque-overlay {
+    /*---positioned relative to the nearest positioned ancestor---*/
     position: absolute;
     top: 0;
     left: 0;
@@ -170,6 +174,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 
+        /*---pulls content forward to be visible on Z-index axis---*/
     z-index: 1;
 
 }
@@ -187,7 +192,7 @@ body {
 
 
 .my-jumbotron {
-    /*--- color of text ---*/
+    /*--- color of text white ---*/
     color: #fafafa;
     /*--- makes background a dark grey color and slightly transparent ---*/
     background-color: rgba(0, 0, 0, 0.5);
@@ -290,6 +295,7 @@ img.pg {
     width: 50px;
     height: 50px;
    font-size: 30px;
+   /*--- color of text green ---*/
     color: #20b978;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
@@ -298,6 +304,7 @@ img.pg {
 }
 
 .social-media i:hover {
+    /*--- color of text darker green ---*/
     color: #119264;
 }
 
@@ -366,11 +373,13 @@ img.pg {
 
 
 .my-callout {
+    /*---pulls content forward to be visible on Z-index axis---*/
     z-index: 2;
 }
 
 
 .my-modal {
+    /*--- color of text ---*/
     color: black;
 }
 
@@ -405,7 +414,9 @@ img.pg {
 .my-timeline-item {
     /*--- removes padding automatically set by bootstrap ---*/
     padding: 4em 2em 0em 2em;
+    /*---positioned relative to normal position---*/
     position: relative;
+    /*--- creates solid line for timeline ---*/
     border-left: 1px solid;
 }
 
@@ -435,6 +446,7 @@ img.pg {
     height: 12px;
     display: block;
     top: 2.4em;
+    /*---positioned relative to the nearest positioned ancestor---*/
     position: absolute;
     left: -6px;
     border-radius: 12px;
@@ -543,12 +555,14 @@ img.pg {
         -o-background-size: contain;
         background-size: contain;
 
+            /*--- color of text white ---*/
         color: #fafafa;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
+            /*---positioned according to value of the property from its parent element---*/
         position: inherit;
 
             /*--- removes margins automatically set by bootstrap ---*/
@@ -614,12 +628,14 @@ img.pg {
         -o-background-size: contain;
         background-size: contain;
 
+            /*--- color of text white ---*/
         color: #fafafa;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
+            /*---positioned according to value of the property from its parent element---*/
         position: inherit;
 
             /*--- removes margins automatically set by bootstrap ---*/
@@ -654,12 +670,14 @@ img.pg {
         -o-background-size: cover;
         background-size: cover;
 
+            /*--- color of text white ---*/
         color: #fafafa;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
+            /*---positioned according to value of the property from its parent element---*/
         position: inherit;
 
             /*--- removes margins automatically set by bootstrap ---*/

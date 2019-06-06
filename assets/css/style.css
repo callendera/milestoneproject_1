@@ -21,7 +21,7 @@ body {
 
 .callout-container {
     /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("assets/images/vert.jpg")no-repeat top center fixed;
+        background: url("../images/vert.jpg")no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -41,7 +41,7 @@ body {
 .bio-container {
     height: 100vh;
     /*--- sets background image for Bio container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("assets/images/tv1.jpg") no-repeat top center fixed;
+    background: url("../images/tv1.jpg") no-repeat top center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -64,7 +64,7 @@ body {
     /*--- height the container takes up in the viewport ---*/
     height: 100vh;
     /*--- sets background image for Tour container. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("assets/images/tour.jpg") repeat top center fixed;
+    background: url("../images/tour.jpg") repeat top center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -99,7 +99,7 @@ body {
     padding-bottom: 0;
     padding-top: 0;
     /*--- sets background image for the NavBar. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and centered vertically. the background will also not scroll, but remained positioned so things will scroll behind it---*/
-    background: url(assets/images/red.jpg) repeat center center fixed;
+    background: url(../images/red.jpg) repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -500,7 +500,7 @@ img.pg {
     
     div.callout-container {
         /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("assets/images/vert.jpg") no-repeat top center fixed;
+        background: url("../images/vert.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -563,7 +563,7 @@ img.pg {
         height: 70vh;
    
            /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("assets/images/monks.jpg") no-repeat top center fixed;
+        background: url("../images/monks.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -636,7 +636,7 @@ img.pg {
         height: 96vh;
            
            /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("assets/images/monks.jpg") no-repeat top center fixed;
+        background: url("../images/monks.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -678,7 +678,7 @@ img.pg {
         
     
            /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("assets/images/monkees.jpg") no-repeat top center fixed;
+        background: url("../images/monkees.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: cover;
         -moz-background-size: cover;

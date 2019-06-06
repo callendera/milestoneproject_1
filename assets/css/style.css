@@ -10,7 +10,7 @@ body {
         /*--- color of text white ---*/
     color: #fafafa;
     /*--- sets background image for the entire body. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and vertically. the background will also not scroll, but remained positioned---*/
-    background: url(assets/images/red.jpg) repeat center center fixed;
+    background: url(/assets/images/red.jpg) repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: contain;
     -moz-background-size: contain;

@@ -136,12 +136,17 @@ body {
 
 
 .my-navbar-toggler {
+    /*--- display to fill contents ---*/
     display: contents;
     width: 2em;
     height: 2em;
+    /*--- aligns to fit toggler container ---*/
     vertical-align: middle;
+    /*--- content aligned according to parent element ---*/
     content: "";
+    /*--- toggler doesn't repeat and it center to container ---*/
     background: no-repeat center center;
+    /*--- toggler 100% of toggler container ---*/
     background-size: 100% 100%;
 
     /*--- color of text white ---*/
@@ -170,6 +175,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    /*--- size of overlay is 100% of container ---*/
     height: 100%;
     width: 100%;
     /*--- color of background to be grey but almost transparent to make white text stand out ---*/
@@ -268,6 +274,7 @@ img.pg {
 .red-divider {
     width: 200px;
     height: 3px;
+    /*--- no outline on divider ---*/
     border: 0;
     /*--- color of block divider, red that is slightly transparent ---*/
     background-color: rgb(159, 8, 25);
@@ -276,15 +283,13 @@ img.pg {
 .my-block-divider {
     width: 200px;
     height: 3px;
+    /*--- no outline on divider ---*/
     border: 0;
     /*--- color of block divider, grey and slightly transparent ---*/
     background-color: rgba(0, 0, 0, 0.46);
 }
 
 
-.block-divider-timeline {
-    background-color: transparent;
-}
 
 /*---------------GENERAL: fonts, transitions, spacing-------------*/
 
@@ -304,6 +309,7 @@ img.pg {
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
 }
 
 .social-media i:hover {
@@ -430,7 +436,9 @@ img.pg {
     margin: 0;
 }
 
+/*--- 'before' sets dates ---*/
 .my-timeline-item:before {
+    /*--- timeline displays dates to and the attribute sets them to be in order ---*/
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -444,6 +452,7 @@ img.pg {
     margin: 0;
 }
 
+/*--- 'after' sets dots  ---*/
 .my-timeline-item:after {
     width: 12px;
     height: 12px;

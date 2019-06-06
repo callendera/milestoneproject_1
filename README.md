@@ -1,6 +1,6 @@
 # My 1st Milestone Project
 
-## Check out my website [here](https://milestoneproject-1-gatorwam19.c9users.io/index.html)
+## Check out my website [here]( https://callendera.github.io/milestoneproject_1/)
 
 ## Objective
 My 1st Milestone Project is to used to display my skills learned in the following sections: 

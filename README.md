@@ -68,11 +68,15 @@ while the wide range of responsive design allows for the younger fan base to hav
 ## Tools/Technologies
 * [Cloud9](https://c9.io/login)
     * Cloud9 hosted my Workspace for this project
-* [GitHub](https://github.com/)
-    * Project is hosted on GitHub and stores my Repositories
-* [Bootstrap4](https://getbootstrap.com/)
-    * Provided my buttons, modal, carousel, and Navbar 
+* [Git](https://git-scm.com/)
+    * used to push and commit any and all changes to my repository on GitHub
+* [Bootstrap](https://getbootstrap.com/)
+    * Provided my buttons, modal, carousel, Navbar, and basic grid structure 
 * [JQuery](https://jquery.com/)
     * The project uses JQuery for DOM manipulation (Ex: Modal)
 * [JavaScript](https://www.javascript.com/)
     * Bootstrap4 provided this project with certain JavaScript extensions for functionality (Ex: Modal)
+* [HTML Validator](https://validator.w3.org/)
+    * Used to check HTML code for errors
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * Used to check CSS code for errors

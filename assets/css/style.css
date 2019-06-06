@@ -172,6 +172,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
+    /*--- color of background to be grey but almost transparent to make white text stand out ---*/
     background-color: rgba(0, 0, 0, 0.5);
 
         /*---pulls content forward to be visible on Z-index axis---*/
@@ -194,7 +195,7 @@ body {
 .my-jumbotron {
     /*--- color of text white ---*/
     color: #fafafa;
-    /*--- makes background a dark grey color and slightly transparent ---*/
+    /*--- makes background a dark grey color and almost completely transparent to make text stand out ---*/
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -268,6 +269,7 @@ img.pg {
     width: 200px;
     height: 3px;
     border: 0;
+    /*--- color of block divider, red that is slightly transparent ---*/
     background-color: rgb(159, 8, 25);
 }
 
@@ -275,6 +277,7 @@ img.pg {
     width: 200px;
     height: 3px;
     border: 0;
+    /*--- color of block divider, grey and slightly transparent ---*/
     background-color: rgba(0, 0, 0, 0.46);
 }
 
@@ -492,7 +495,7 @@ img.pg {
         -o-background-size: contain;
         background-size: contain;
 
-    
+            /*--- makes the background fit to the container ---*/
         overflow: hidden;
 
         align-items: center;

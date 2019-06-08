@@ -102,7 +102,7 @@ while the wide range of responsive design allows for the younger fan base to hav
         * After clicking link I am directed to a bio of the band as a whole. 
         * The short bio is concluded with a link Button encouraging the reader to Read More
         * If the user clicks the Read More button it will will open a seperate tab to the wikipedia page for the monkees. 
-        * the original website is there for the user to return to when the finish with wikipedia
+        * The original website is there for the user to return to when the finish with wikipedia
         * Upon scrolling down slightly the user is shown a 'Meet The Guys' section
         * The section is highlighted with pictures of each band member, a short bio for each, and a link to Read More.
         * after clicking the link to Read More each button leads the user to another seperate tab that opens each members wikipedia pages.
@@ -110,41 +110,80 @@ while the wide range of responsive design allows for the younger fan base to hav
     
     * Check out pictures of the band
         * Upon making it to the landing page
-        * there is a link provided in the NavBar called 'Photos'
-        * after clicking that link the user is directed to the 'Photo Gallery'
+        * There is a link provided in the NavBar called 'Photos'
+        * After clicking that link the user is directed to the 'Photo Gallery'
         * In the Photo Gallery the pictures are displayed on a Carousel.
-        * the carousel is set to slide the images on its own, but can also be manipulated to skip ahead to the next or show the previous image
-        * both options are shown using an arrow on the left and right side of the carousel.
+        * The carousel is set to slide the images on its own, but can also be manipulated to skip ahead to the next or show the previous image
+        * Both options are shown using an arrow on the left and right side of the carousel.
     
     * See the band live
-        * after coming to the webpage's landing page
-        * the navbar gives a link to the 'Events' section
-        * upon clicking on that link you are directed to the '2019 concert dates'
-        * scroll down slightly and a timeline appears that lets the user soo the dates and places for each concert.
-        * under the place the event is being held is a link that says 'Buy Tickets!'
-        * click the link and a seperate tab will open and give the user a dirrect website to purchase tickets.
+        * After coming to the webpage's landing page
+        * The navbar gives a link to the 'Events' section
+        * Upon clicking on that link you are directed to the '2019 concert dates'
+        * Scroll down slightly and a timeline appears that lets the user soo the dates and places for each concert.
+        * Under the place the event is being held is a link that says 'Buy Tickets!'
+        * Click the link and a seperate tab will open and give the user a dirrect website to purchase tickets.
     
     * Plan a Private event 
-        * there are 2 seperate routes to take to book the band for a private event 
+        * There are 2 seperate routes to take to book the band for a private event 
             * NavBar
-                * upon coming to the landing page in the NavBar it gives the opton to 'Book Now' 
-                * if you click on this button, it will open a Modal.
-                * the screen behind the modal fades
-                * there is an input field for a name, company name, email, date, time, place, and description.
-                * all of these options are required except the company name.
-                * when you try to send the form it will pop up notifications for the one that are left blank or improperly filled in.
-                * after you have the appropriate information in each blank and you hit the book button the form will close and bring you back to the website in the spot where you left off.
+                * Upon coming to the landing page in the NavBar it gives the opton to 'Book Now' 
+                * If you click on this button, it will open a Modal.
+                * The screen behind the modal fades
+                * There is an input field for a name, company name, email, date, time, place, and description.
+                * All of these options are required except the company name.
+                * When you try to send the form it will pop up notifications for the one that are left blank or improperly filled in.
+                * After you have the appropriate information in each blank and you hit the book button the form will close and bring you back to the website in the spot where you left off.
             * Jumbotron
-                * in the section following the timeline is a Jumbotron with an option for the user to book a private event as well. 
+                * In the section following the timeline is a Jumbotron with an option for the user to book a private event as well. 
                 * The same modal pops up there as well with all of the same functionality. 
         * reasoning for 2 sections
             * The users main goal may be to come to the site and book the event, so I made the option available as soon as you come to the landing page.
-            * after scrolling throught the site for someone who may just be there to listen to music or check out pictures, booking the band may come as an after thought. so after the user looks at the event section the idea to plan an event and to book the band may be more prevelant after checking out the site.
+            * After scrolling throught the site for someone who may just be there to listen to music or check out pictures, booking the band may come as an after thought. so after the user looks at the event section the idea to plan an event and to book the band may be more prevelant after checking out the site.
     
     * Check out Social Media
-        * if the usert is there to look at the site i provided the social media links at the bottom to encourage the user to scroll the entire site to see what we have to offer
-        * upon clicking any of the 3 social media links it opens a seperate tab that leads them directly to the specific social media page.
-    
-    * ANY AND ALL BUTTONS AND LINKS
-        * have a hover transition that slightly change the color to a darker green (if already green) or a brighter white (if already white) when the mouse is hovered over the link or button
-        * this lets the user know that is is able to be clicked 
+        * If the user is there to look at the site i provided the social media links at the bottom to encourage the user to scroll the entire site to see what we have to offer
+        * Upon clicking any of the 3 social media links it opens a seperate tab that leads them directly to the specific social media page.
+
+## Manual Testing 
+
+### Desktop
+All features were tested on Google Chrome, Internet Explorer, and Firefox. Also checked on two different screen sizes.
+
+* NavBar
+    * Appears with the intended 'red.jpg' background and font style 'Permanent Marker'
+    * Displays NavBrand labeled 'The Monkees' when clicked it links back to the Landing page
+    * The NavItems appear in order: Home | Music | Bio | Photos | Events
+        * They have the color of an off-white until hovered over, they turn into a brighter white to match the NavBrand to let the user know it can be clicked. 
+        * When any of the NavItems are clicked they navigate you to the correct place on the page.
+            * Home --> Landing Page
+            * Music --> Audio and Video
+            * Bio --> Bio and Meet The Guys
+            * Photos --> Carousel
+            * Events --> 2019 Concert Dates, Plan an event
+    * On the right of the NavBar text appears that advertises to book an event stating 'Weddings? Holiday Parties? Book Now!'.
+        * This text appears in italics and in off-white, the 'Book Now!' is in green.
+        * 'Book Now!' turns to a darker green when hovered to let the user know it can be clicked.
+            * After clicking the 'Book Now!' a modal opens.
+            * The screen behind the modal darkens to exemplify the modal as a focal point.
+            * Within 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

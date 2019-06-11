@@ -237,7 +237,36 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
     * Each one has a hover transition, when not hovered the icon is green (uniform witht the other buttons, symbols, etc.), after being hovered the icon smoothly changes to a darker green color.
     * Upon clicking any of the 3 icons the particular social link is opened into a seperate tab.
 
+### Bugs Discovered
 
+* Solved Bugs
+    * Hidden Navbar Toggler
+        * Starting at 576px the Navbar Toggler was supposed to appear, the area was able to be clicked allowing the menu to drop down, but no toggler icon would appear. 
+        * initially I thought it was a Z-Index problem, upon further examination and trial-error that was discovered to not be the problem. I then realized I had added no color to the Navbar (ex: navbar-dark or navbar-light)
+        * after adding navbar-dark the Toggler icon appeared and was fully functional as expected.
+    * Background image cut off behind Navbar
+        * I changed the height of the Navbar to reveal the cut off image.
+            * Created a better UX
+    * Alignment issues in Mobile View
+        * After adding the Carousel, the alignment on Mobile view caused everything to be pushed to the left.
+        * I used css style code:
+        ```
+        * {
+            background: #000 !important;
+            color: #0f0 !important;
+            outline: solid #f00 1px !important;
+        }
+        ```
+        This set of code blacks out the entire wesite except for images and words, it outlines everything to show what is not aligned.
+        * The Viewport Width needed to be adjusted for the carousel on each screensize to prevent alignment problems.
+    * CSS Grid system 
+        * Initially I did not use the grid system correctly, placed containers inside of rows etc.
+        * This caused a blank white space to appear at the bottom of webpage.
+        * After sorting that out and replacing those containers with rows, the problem resolved.
+
+### Further Testing
+
+* Asked fellow students and mentor to look at my webpage on a range of devices to report any bugs found.
 
 
 

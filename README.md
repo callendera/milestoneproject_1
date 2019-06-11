@@ -151,6 +151,7 @@ while the wide range of responsive design allows for the younger fan base to hav
 All features were tested on Google Chrome, Internet Explorer, and Firefox. Also checked on two different screen sizes.
 
 * NavBar
+    * Fixed to the top of the page so, to navigate throughout the site 
     * Appears with the intended 'red.jpg' background and font style 'Permanent Marker'
     * Displays NavBrand labeled 'The Monkees' when clicked it links back to the Landing page
     * The NavItems appear in order: Home | Music | Bio | Photos | Events
@@ -166,7 +167,52 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
         * 'Book Now!' turns to a darker green when hovered to let the user know it can be clicked.
             * After clicking the 'Book Now!' a modal opens.
             * The screen behind the modal darkens to exemplify the modal as a focal point.
-            * Within 
+* Modal
+    * The Modal is triggered after either the Navbar button or the button in the Jumbotron is clicked.
+    * The Modal, like described above, appears and darkens the screen behind it.
+    * The structure is as follows:
+        * Modal Title 'Book Us For Your Event Today!'
+        * In the top right corner there is an 'X' to close out the modal.
+        * There is an input section for your Name with a placeholder that says 'First and Last', this section is required.
+        * There is an input for your company name with a placeholder that says 'Optional', this section is not required.
+        * There is an input section for your Email with a placeholder that says '@email.com', this section is required, and it must have the structure of a real email.
+        * There is an input section for the address of the event with a placeholder that says 'Address', this section is required.
+        * There is an input section for the date of the event with a placeholder that says '08/10/2019' to provide appropriate structure, this section is required.
+        * There is an input section for the time of the event with a placeholder that says '12:00am EST' to provide appropriate structure, this section is required.
+        * There is an input section for details of the event with a placeholder that says 'Please provide a short description of your event', this section is required.
+        * At the bottom of the Modal there is a button that says 'Book'
+            * If the user hits the button without filling in the blanks with the appropriate content, the modal will pop up a warning message beside the blank that needs attention.
+            * After all of the blanks are filled with the appropriate information the modal will close out, then the modal will send the info to The Monkees email and the user would be notified with a confirmation email officially scheduling the event.
+* Home/Landing page
+    * The Home page only has a black and white background picture (monkees.jpg) of the band as a whole.
+        * There are 3 different background images that change according to screen size, because the image wasn't as flattering on smaller screen sizes.
+* Music/Video
+    * The next section as you're scrolling is the Music and Video section
+        * Music
+            * There are 4 different audio control bars
+            * Each bar has a title of the song above it, volume control, play/pause, skip to certain parts of the song, and a way for the user to download the audio.
+            * After testing each control bar: they all work as expacted
+        * Video
+            * There is one video displayed on the screen, the video takes up the majority of the viewport as intended.
+            * The embedded video was taken for Youtube, to allow the user to have more videos pop up to let them to visit The Monkees Youtube channel.
+            * The video has pause/play, volume control, and skip to different parts of the song.
+            * After testing out each of these controls they worked as expected.
+* Bio/Meet The Guys
+    * This section displays a background image of a 1970s TV to exemplify that The Monkees got their start on a television show of the same name.
+        * Bio
+            * This section give a short overview/introduction to the band. 
+            * The text is white with an Opaque Overlay on the background image to make the words standout from the picture.
+            * At the end of the text, there is a button that says 'read more' this allows the user to visit the band's wikipedia page in a seperate tab.
+        * Meet The Guys
+            * In this section there 4 pictures displaying headshots of each of the band's members with there name and a short bio attached bellow it.
+            * Each bio also has a button attached to it to allow the user to visit the individual wikipedia page in a seperate tab as well.
+* Photo Gallery
+    * The title Photo Gallery is underlined by a block divider and another block divider marks the bottom of the carousel.
+    * The carousel slides through 8 photos
+    * The images needed to be resized based on the screensize. 
+    * The carousel also has 'previous' and 'next' controls to allow the user to accelerate or go back throught the images.
+    * Upon testing the carousel is works as expected on all screensizes. The next arrow was pressed and moved through the images in the correct order and the same was repeated with the previous wiht the same outcome.
+
 
 
 

@@ -147,8 +147,8 @@ while the wide range of responsive design allows for the younger fan base to hav
 
 ## Manual Testing 
 
-### Desktop
-All features were tested on Google Chrome, Internet Explorer, and Firefox. Also checked on two different screen sizes.
+### Desktop, Tablet, and Mobile
+All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobile/Tablet features were tested on Apple and Samsung devices. Everything was tested using a wide range of screensizes.
 
 * NavBar
     * Fixed to the top of the page so, to navigate throughout the site 
@@ -162,11 +162,16 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
             * Bio --> Bio and Meet The Guys
             * Photos --> Carousel
             * Events --> 2019 Concert Dates, Plan an event
+        * All NavItems displayed appear in a Navbar Toggler starting at 576px
+            * The Items listed above are displayed in the same order when the toggler smoothly drops down.
+            * After clicking the toggler and selecting the section the user is interested in visiting the toggler remains open until it is closed by clicking the toggler again.
     * On the right of the NavBar text appears that advertises to book an event stating 'Weddings? Holiday Parties? Book Now!'.
         * This text appears in italics and in off-white, the 'Book Now!' is in green.
         * 'Book Now!' turns to a darker green when hovered to let the user know it can be clicked.
             * After clicking the 'Book Now!' a modal opens.
             * The screen behind the modal darkens to exemplify the modal as a focal point.
+        * This part of the Navbar disapears starting at 768px.
+            * Making that disapear makes the navbar look better in the smaller screen sizes.
 * Modal
     * The Modal is triggered after either the Navbar button or the button in the Jumbotron is clicked.
     * The Modal, like described above, appears and darkens the screen behind it.
@@ -185,7 +190,9 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
             * After all of the blanks are filled with the appropriate information the modal will close out, then the modal will send the info to The Monkees email and the user would be notified with a confirmation email officially scheduling the event.
 * Home/Landing page
     * The Home page only has a black and white background picture (monkees.jpg) of the band as a whole.
-        * There are 3 different background images that change according to screen size, because the image wasn't as flattering on smaller screen sizes.
+        * There are 3 different background images that change according to screen size, because the image for the desktop view wasn't as flattering on smaller screen sizes. 
+        * At 992px a more size fitting back ground appears as expected.
+        * At 576px a different background image appears there as well that fits the screensize better as well.
 * Music/Video
     * The next section as you're scrolling is the Music and Video section
         * Music
@@ -193,7 +200,7 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
             * Each bar has a title of the song above it, volume control, play/pause, skip to certain parts of the song, and a way for the user to download the audio.
             * After testing each control bar: they all work as expacted
         * Video
-            * There is one video displayed on the screen, the video takes up the majority of the viewport as intended.
+            * There is one video displayed on the screen, the video takes up the majority of the viewport as intended. This size adjusts well to different screen sizes.
             * The embedded video was taken for Youtube, to allow the user to have more videos pop up to let them to visit The Monkees Youtube channel.
             * The video has pause/play, volume control, and skip to different parts of the song.
             * After testing out each of these controls they worked as expected.

@@ -198,7 +198,7 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
             * The video has pause/play, volume control, and skip to different parts of the song.
             * After testing out each of these controls they worked as expected.
 * Bio/Meet The Guys
-    * This section displays a background image of a 1970s TV to exemplify that The Monkees got their start on a television show of the same name.
+    * This section displays a background image of a 1970s TV to exemplify that The Monkees got their start on a television show of the same name. The image adjusts well to each screen size.
         * Bio
             * This section give a short overview/introduction to the band. 
             * The text is white with an Opaque Overlay on the background image to make the words standout from the picture.
@@ -212,7 +212,23 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Also 
     * The images needed to be resized based on the screensize. 
     * The carousel also has 'previous' and 'next' controls to allow the user to accelerate or go back throught the images.
     * Upon testing the carousel is works as expected on all screensizes. The next arrow was pressed and moved through the images in the correct order and the same was repeated with the previous wiht the same outcome.
-
+* Events
+    * In this section The title '2019 Concert Dates' is illuminated on a background with an Opaque Overlay. The image is a 1970s tour bus and the image adjusts well with each screen size.
+    * after scrolling past the initial page, the Time Line appears in order of Upcoming Concerts. 
+    * The timeline is arranged by date with the City and place for each concert. 
+    * A link is also placed after each place to allow the user to buy the tickets in a seperate tab. 
+    * All timeline items are centered, except on Mobile view, those are placed to the left for a better UX.
+* Jumbotron
+    * The Jumbotron is showed on a slightly transparent background to make it stand out a bit. 
+    * The heading should stand out to any user trying to plan an event. 'Planning an Event?' and then 'Book Us Today' with a button.
+    * The Button opens the same Modal that is described above! 
+* Contact Us
+    * This section is just a series of texts giving the user a way to email, call, or mail the band.
+    * Text adjusts based on differing screen sizes.
+* Social Media
+    * Beneath the Contact us section are 3 symbols for their social media links
+    * Each one has a hover transition, when not hovered the icon is green (uniform witht the other buttons, symbols, etc.), after being hovered the icon smoothly changes to a darker green color.
+    * Upon clicking any of the 3 icons the particular social link is opened into a seperate tab.
 
 
 

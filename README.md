@@ -221,9 +221,9 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
     * Upon testing the carousel is works as expected on all screensizes. The next arrow was pressed and moved through the images in the correct order and the same was repeated with the previous wiht the same outcome.
 * Events
     * In this section The title '2019 Concert Dates' is illuminated on a background with an Opaque Overlay. The image is a 1970s tour bus and the image adjusts well with each screen size.
-    * after scrolling past the initial page, the Time Line appears in order of Upcoming Concerts. 
+    * After scrolling past the initial page, the Time Line appears in order of Upcoming Concerts. 
     * The timeline is arranged by date with the City and place for each concert. 
-    * A link is also placed after each place to allow the user to buy the tickets in a seperate tab. 
+    * A link button is also placed after each place to allow the user to buy the tickets in a seperate tab. 
     * All timeline items are centered, except on Mobile view, those are placed to the left for a better UX.
 * Jumbotron
     * The Jumbotron is showed on a slightly transparent background to make it stand out a bit. 

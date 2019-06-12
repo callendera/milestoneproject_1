@@ -281,6 +281,24 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
 9. After it was deployed I had to change all of the file paths to be relative rather than absolute
 
 
+## Credits
+
+### Content
+* The text from the Bio section was from [The 8Notes Article Here]( https://www.8notes.com/biographies/monkees.asp) 
+* The info in my Meet The Guys section was from Wikipedia articles as follows [Peter Tork]( https://en.wikipedia.org/wiki/Peter_Tork), [Davy Jones]( https://en.wikipedia.org/wiki/Davy_Jones_(musician)), [Micky Dolenz]( https://en.wikipedia.org/wiki/Micky_Dolenz), [Mike Nesmith]( https://en.wikipedia.org/wiki/Michael_Nesmith)
+
+### Media
+* The photos used in my webpage were from Google Images, and the GitHub repo provided by The Code Institute
+* The audio files also came from the same GitHub repo 
+* The video was taken from Youtube
+
+### Acknowledgements
+* I recieved inspiration for this project from The Code Institute's Guidlines for Milestone Project 1, 
+* Anna_Lead (Slack), 
+* my mentor Sandeep Aggarwal, 
+* and my previous mentor Ravi Lakhotia.
+
+
 
 
 

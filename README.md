@@ -268,6 +268,18 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
 
 * Asked fellow students and mentor to look at my webpage on a range of devices to report any bugs found.
 
+## Deployment
+
+1. I logged into my GitHub
+2. Navigated to my GitHub repository
+3. Clicked on my 'milestoneproject_1' 
+4. Beneath the repository name click the 'Settings' button
+5. I scrolled down to the 'GitHub Pages' section 
+6. I then selected the 'Master Branch' located under the 'Source' section
+7. Finally I hit save
+8. My site was published at https://callendera.github.io/milestoneproject_1/
+9. After it was deployed I had to change all of the file paths to be relative rather than absolute
+
 
 
 

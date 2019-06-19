@@ -485,6 +485,7 @@ img.pg {
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
+    z-index: 2;
 }
 
 

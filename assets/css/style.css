@@ -393,7 +393,7 @@ img.pg {
 
 
 
-.my-callout {
+.my-timeline-heading {
     /*---pulls content forward to be visible on Z-index axis---*/
     z-index: 2;
 }

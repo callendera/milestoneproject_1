@@ -228,8 +228,12 @@ img.pg {
 .video-size {
     height: 600px;
     width: 900px;
+    
 }
 
+.video-padding {
+    padding-left: 280px;
+}
 
 
 /*---------------BUTTONS-------------*/

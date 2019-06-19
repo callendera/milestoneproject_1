@@ -1,8 +1,8 @@
-/** {*/
-/*  background: #000 !important;*/
-/*  color: #0f0 !important;*/
-/*  outline: solid #f00 1px !important;*/
-/*}*/
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
 
 
 /*---------------BACKGROUND CONTAINERS-------------*/
@@ -225,15 +225,7 @@ img.pg {
     margin-bottom: 130px;
 }
 
-.video-size {
-    height: 600px;
-    width: 900px;
-    
-}
 
-.video-padding {
-    padding-left: 280px;
-}
 
 
 /*---------------BUTTONS-------------*/
@@ -684,6 +676,17 @@ img.pg {
         margin-left: 35px;
     }
     
+    div.video-size {
+    /*--- edits video size for larger devices ---*/
+    height: 400px;
+    width: 600px;
+    
+}
+
+div.video-padding {
+    /*---adds padding to center the video---*/
+    padding-left: 190px;
+}
 
 }    
 
@@ -733,6 +736,18 @@ div.guys {
     /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 140px;
     margin-right: 140px;
+}
+
+div.video-size {
+    /*--- edits video size for larger devices ---*/
+    height: 600px;
+    width: 900px;
+    
+}
+
+div.video-padding {
+    /*---adds padding to center the video---*/
+    padding-left: 280px;
 }
 }
 

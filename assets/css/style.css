@@ -1,4 +1,8 @@
-
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
 
 
 /*---------------BACKGROUND CONTAINERS-------------*/
@@ -414,11 +418,13 @@ img.pg {
 }
 
 .video-container {
-    /*--- removes padding automatically set by bootstrap ---*/
+    --- removes padding automatically set by bootstrap ---
     padding-top: 20px;
     padding-bottom: 30px;
-    /*--- removes margins automatically set by bootstrap ---*/
+    padding-left: 200px;
+    --- removes margins automatically set by bootstrap ---
     margin-left: 5px;
+    text-align: center;
 }
 
 

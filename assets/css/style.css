@@ -1,17 +1,9 @@
-/** {*/
-/*  background: #000 !important;*/
-/*  color: #0f0 !important;*/
-/*  outline: solid #f00 1px !important;*/
-/*}*/
-
-
 /*---------------BACKGROUND CONTAINERS-------------*/
-
 
 body {
     /*--- gives a font style to the entire webpage ---*/
     font-family: 'Overpass', sans-serif;
-        /*--- color of text white ---*/
+    /*--- color of text white ---*/
     color: #fafafa;
     /*--- sets background image for the entire body. it is set to repeat, so the image doesnt stretch, and the image will be centered horizontally and vertically. the background will also not scroll, but remained positioned---*/
     background: url(../images/red.jpg) repeat center center fixed;
@@ -25,21 +17,21 @@ body {
 
 .callout-container {
     /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("../images/vert.jpg")no-repeat top center fixed;
-        /*--- adjusts background for different browsers ---*/
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+    background: url("../images/vert.jpg")no-repeat top center fixed;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
-            /*--- makes the background fit to the container ---*/
-        overflow: hidden;
-        
-            /*--- aligns and justifies text in container ---*/
-        align-items: center;
-        justify-content: center;
-        /*--- the height that container will take up in the viewport ---*/
-        height: 60vh;
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    /*--- the height that container will take up in the viewport ---*/
+    height: 60vh;
 }
 
 .bio-container {
@@ -52,16 +44,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-        /*--- text color white ---*/
+    /*--- text color white ---*/
     color: #fafafa;
-        
-        /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
+
+    /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
     display: flex;
     align-items: center;
     justify-content: center;
 
-        /*--- positioned relative to its normal position ---*/
-    position: relative;`
+    /*--- positioned relative to its normal position ---*/
+    position: relative;
 }
 
 .tour-container {
@@ -74,18 +66,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-        /*--- color of text white ---*/
+
+    /*--- color of text white ---*/
     color: #fafafa;
-    
+
     /*--- text properties to make the text fit to container, align text, and justifies content to distribute free space ---*/
     display: flex;
     align-items: center;
     justify-content: center;
-    
-        /*--- positioned relative to its normal position ---*/
+
+    /*--- positioned relative to its normal position ---*/
     position: relative;
-    
+
 }
 
 .photo-container {
@@ -93,7 +85,6 @@ body {
 }
 
 /*---------------NAVBAR-------------*/
-
 
 .my-navbar {
     font-family: 'Permanent Marker', cursive;
@@ -111,7 +102,7 @@ body {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    
+
     /*--- color of text white ---*/
     color: #fafafa;
 }
@@ -160,7 +151,7 @@ body {
 .my-navbar-toggler-icon {
     /*--- color of icon white ---*/
     color: #fafafa;
-    
+
 }
 
 .my-navbar-brand {
@@ -170,9 +161,9 @@ body {
 /*---------------IMAGES-------------*/
 
 .my-rounded-circle {
-        height: 175px;
-        width: 180px;
-    }
+    height: 175px;
+    width: 180px;
+}
 
 .opaque-overlay {
     /*---positioned relative to the nearest positioned ancestor---*/
@@ -185,7 +176,7 @@ body {
     /*--- color of background to be grey but almost transparent to make white text stand out ---*/
     background-color: rgba(0, 0, 0, 0.67);
 
-        /*---pulls content forward to be visible on Z-index axis---*/
+    /*---pulls content forward to be visible on Z-index axis---*/
     z-index: 1;
 
 }
@@ -310,8 +301,8 @@ img.pg {
     text-align: center;
     width: 50px;
     height: 50px;
-   font-size: 30px;
-   /*--- color of text green ---*/
+    font-size: 30px;
+    /*--- color of text green ---*/
     color: #20b978;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
@@ -344,7 +335,7 @@ img.pg {
 
 .text {
     font-size: 16px;
-    
+
 }
 
 .my-callout {
@@ -356,7 +347,7 @@ img.pg {
 }
 
 
-.row, 
+.row,
 .container {
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
@@ -424,22 +415,20 @@ img.pg {
     padding-top: 20px;
     padding-bottom: 30px;
 
-    
+
 }
 
 .video-container {
-    --- removes padding automatically set by bootstrap ---
+    /*--- removes padding automatically set by bootstrap ---*/
     padding-top: 20px;
     padding-bottom: 30px;
-    --- removes margins automatically set by bootstrap ---
+    /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 5px;
     text-align: center;
 }
 
 
 /*---------------TIMELINE-------------*/
-
-
 
 .my-timeline-item {
     /*--- removes padding automatically set by bootstrap ---*/
@@ -458,6 +447,7 @@ img.pg {
 }
 
 /*--- 'before' sets dates ---*/
+
 .my-timeline-item:before {
     /*--- timeline displays dates to and the attribute sets them to be in order ---*/
     content: attr(data-dates);
@@ -474,6 +464,7 @@ img.pg {
 }
 
 /*--- 'after sets dots  ---*/
+
 .my-timeline-item:after {
     width: 12px;
     height: 12px;
@@ -502,21 +493,19 @@ img.pg {
 
 /*---------------media queries-------------*/
 
-
-
 @media (min-width: 576px) {
     div.guys {
         /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
     }
-    
+
     div.guys-row {
         /*--- removes margins automatically set by bootstrap ---*/
-    margin-left: 0;
-}
-    
-    
-    
+        margin-left: 0;
+    }
+
+
+
     div.callout-container {
         /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
         background: url("../images/vert.jpg") no-repeat top center fixed;
@@ -526,129 +515,129 @@ img.pg {
         -o-background-size: contain;
         background-size: contain;
 
-            /*--- makes the background fit to the container ---*/
+        /*--- makes the background fit to the container ---*/
         overflow: hidden;
 
         align-items: center;
         justify-content: center;
-        
+
         /*--- height the container takes up in the viewport ---*/
         height: 99vh;
-    
-      }
-    
-    img.pg {
-    height: 300px;
-    width: 400px;
+
     }
-    
+
+    img.pg {
+        height: 300px;
+        width: 400px;
+    }
+
     div.pg-carousel {
-    height: 70vh;
-    width: 94.7vw;
-}
-     
-     div.bio-heading {
+        height: 70vh;
+        width: 94.7vw;
+    }
+
+    div.bio-heading {
         font-size: 2rem;
     }
-    
+
     div.bio-text {
         font-size: 1rem;
     }
-    
+
     audio.my-audio {
         height: 40px;
         width: 250px;
     }
-    
+
     div.my-timeline {
         /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 60px;
-    padding-right: 40px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-
-@media (min-width: 768px) {
-    
-    
-    div.pg-carousel {
-    height: 60vh;
-    width: 96vw;
+        padding-left: 60px;
+        padding-right: 40px;
+        padding-top: 20px;
+        text-align: center;
     }
-    
-    div.callout-container {
-        /*--- height the container takes up in the viewport ---*/
-        height: 82vh;
-   
-           /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-        background: url("../images/monks.jpg") no-repeat top center fixed;
-        /*--- adjusts background for different browsers ---*/
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+
+
+    @media (min-width: 768px) {
+
+
+        div.pg-carousel {
+            height: 60vh;
+            width: 96vw;
+        }
+
+        div.callout-container {
+            /*--- height the container takes up in the viewport ---*/
+            height: 82vh;
+
+            /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+            background: url("../images/monks.jpg") no-repeat top center fixed;
+            /*--- adjusts background for different browsers ---*/
+            -webkit-background-size: contain;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            background-size: contain;
 
             /*--- color of text white ---*/
-        color: #fafafa;
+            color: #fafafa;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             /*---positioned according to value of the property from its parent element---*/
-        position: inherit;
+            position: inherit;
 
             /*--- removes margins automatically set by bootstrap ---*/
-        margin: 0;
-        padding: 0;
-    
-  }
-  
-  div.bio-container {
-    height: 250vh;
-  }
-  
-    img.my-rounded-circle {
-    height: 200px;
-    width: 250px;
-}
-}
+            margin: 0;
+            padding: 0;
 
-  
-   audio.my-audio {
-    height: 54px;
-    width: 300px;
-}
+        }
+
+        div.bio-container {
+            height: 250vh;
+        }
+
+        img.my-rounded-circle {
+            height: 200px;
+            width: 250px;
+        }
+    }
+
+
+    audio.my-audio {
+        height: 54px;
+        width: 300px;
+    }
 }
 
 
 
 @media (min-width: 992px) {
-    
+
     div.my-timeline {
-    text-align: center;
+        text-align: center;
     }
-    
+
     div.pg-carousel {
-    height: 70vh;
-    width: 97vw;
-}
+        height: 70vh;
+        width: 97vw;
+    }
 
 
     div.bio-heading {
         font-size: 35px;
     }
 
-     div.bio-text{
-    font-size: 20px;
-}
+    div.bio-text {
+        font-size: 20px;
+    }
 
     div.callout-container {
         /*--- height the container takes up in the viewport ---*/
         height: 75vh;
-           
-           /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+
+        /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
         background: url("../images/monks.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: contain;
@@ -656,43 +645,43 @@ img.pg {
         -o-background-size: contain;
         background-size: contain;
 
-            /*--- color of text white ---*/
+        /*--- color of text white ---*/
         color: #fafafa;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
-            /*---positioned according to value of the property from its parent element---*/
+        /*---positioned according to value of the property from its parent element---*/
         position: inherit;
 
-            /*--- removes margins automatically set by bootstrap ---*/
+        /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
         /*--- removes padding automatically set by bootstrap ---*/
         padding: 0;
-    
-  }
-  
-  
-  div.guys {
-      /*--- removes margins automatically set by bootstrap ---*/
+
+    }
+
+
+    div.guys {
+        /*--- removes margins automatically set by bootstrap ---*/
         margin-left: 35px;
     }
-    
-   div.tour-container {
-       height: 150vh;
-   }
-}    
+
+    div.tour-container {
+        height: 150vh;
+    }
+}
 
 @media (min-width: 1200px) {
-    
-    
+
+
     div.callout-container {
         /*--- height the container takes up in the viewport ---*/
         height: 100vh;
-        
-    
-           /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+
+
+        /*--- sets a different background image for differing screen sizes for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
         background: url("../images/monkees.jpg") no-repeat top center fixed;
         /*--- adjusts background for different browsers ---*/
         -webkit-background-size: cover;
@@ -700,56 +689,48 @@ img.pg {
         -o-background-size: cover;
         background-size: cover;
 
-            /*--- color of text white ---*/
+        /*--- color of text white ---*/
         color: #fafafa;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
-            /*---positioned according to value of the property from its parent element---*/
+        /*---positioned according to value of the property from its parent element---*/
         position: inherit;
 
-            /*--- removes margins automatically set by bootstrap ---*/
+        /*--- removes margins automatically set by bootstrap ---*/
         margin: 0;
         /*--- removes padding automatically set by bootstrap ---*/
         padding: 0;
-}
+    }
 
     div.pg-carousel {
-    width: 98vw;
+        width: 98vw;
+    }
+
+    div.my-timeline {
+        /*--- removes padding automatically set by bootstrap ---*/
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    div.guys {
+        /*--- removes margins automatically set by bootstrap ---*/
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+
+    div.bio-container {
+        height: 200vh;
+    }
+
+    div.tour-container {
+        height: 170vh;
+    }
+
+
 }
-
-div.my-timeline {
-    /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-div.guys {
-    /*--- removes margins automatically set by bootstrap ---*/
-    margin-left: 140px;
-    margin-right: 140px;
-}
-
-div.bio-container {
-    height: 200vh;
-}
-
-div.tour-container {
-    height: 170vh;
-}
-
-
-}
-
-
-
-
-
-
-
-

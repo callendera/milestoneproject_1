@@ -635,10 +635,6 @@ img.pg {
     width: 97vw;
 }
 
-    div.my-timeline {
-        /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 200px;
-    }
 
     div.bio-heading {
         font-size: 35px;
@@ -683,7 +679,9 @@ img.pg {
         margin-left: 35px;
     }
     
-   
+   div.tour-container {
+       height: 150vh;
+   }
 }    
 
 @media (min-width: 1200px) {

@@ -724,7 +724,10 @@ img.pg {
 
 div.my-timeline {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 260px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -732,6 +735,14 @@ div.guys {
     /*--- removes margins automatically set by bootstrap ---*/
     margin-left: 140px;
     margin-right: 140px;
+}
+
+div.bio-container {
+    height: 200vh;
+}
+
+div.tour-container {
+    height: 170vh;
 }
 
 

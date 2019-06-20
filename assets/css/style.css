@@ -489,7 +489,7 @@ img.pg {
 
 .my-timeline {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 66px;
+    padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
@@ -617,13 +617,13 @@ img.pg {
     width: 300px;
 }
 }
-    div.my-timeline {
+/*    div.my-timeline {*/
         /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 20px;
+/*    padding-left: 110px;*/
+/*    padding-right: 110px;*/
+/*    padding-top: 20px;*/
     
-}
+/*}*/
 
 
 @media (min-width: 992px) {

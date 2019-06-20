@@ -294,9 +294,8 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
 
 ### Acknowledgements
 * I recieved inspiration for this project from The Code Institute's Guidlines for Milestone Project 1, 
-* Anna_Lead (Slack), 
-* my mentor Sandeep Aggarwal, 
-* and my previous mentor Ravi Lakhotia.
+* Anna Greaves, from Slack. 
+
 
 
 

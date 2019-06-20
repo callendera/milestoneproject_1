@@ -342,6 +342,11 @@ img.pg {
 
 .text {
     font-size: 16px;
+    
+}
+
+.my-callout {
+    z-index: 2;
 }
 
 .heading {
@@ -408,7 +413,7 @@ img.pg {
 
 .jumbo-container {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 

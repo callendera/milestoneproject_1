@@ -257,7 +257,7 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
             outline: solid #f00 1px !important;
         }
         ```
-        This set of code blacks out the entire wesite except for images and words, it outlines everything to show what is not aligned.
+        This set of code blacks out the entire wesite except for images and words, it outlines everything to show what is not aligned. This code was provided by Anna Greaves from Slack.
         * The Viewport Width needed to be adjusted for the carousel on each screensize to prevent alignment problems.
     * CSS Grid system 
         * Initially I did not use the grid system correctly, placed containers inside of rows etc.
